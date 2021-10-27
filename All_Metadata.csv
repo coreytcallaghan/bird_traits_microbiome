@@ -1,4 +1,4 @@
-SampleID,Order,Family,Genus,Species,Sample_type,Lat_Long_OG,DOI,Location,Source,Latitude,Logitude
+SampleID,Order,Family,Genus,Species,Sample_type,Lat_Long_OG,DOI,Location,Source,Ltitude,Logitude
 SRR12961937,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.3336111
 SRR12961938,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.3336111
 SRR12961940,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.3336111
@@ -486,7 +486,7 @@ a656,Passeriformes,Zosteropidae,Zosterops (Speirops),brunneus,intestine,"3.63172
 a658S2,Passeriformes,Zosteropidae,Zosterops,senegalensis,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
 SRR11825482,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,38.03005197 N 122.882655 W,10.1007/s00248-020-01569-8,USA,Berlow,38.03005197,-122.882655
 SRR11825483,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,38.02621599 N 122.876718 W,10.1007/s00248-020-01569-8,USA,Berlow,38.02621599,-122.876718
-SRR11825486,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,not collected,10.1007/s00248-020-01569-8,USA,Berlow,NA,A
+SRR11825486,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,not collected,10.1007/s00248-020-01569-8,USA,Berlow,N,
 SRR11825487,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,38.12058197 N 122.943727 W,10.1007/s00248-020-01569-8,USA,Berlow,38.12058197,-122.943727
 SRR11825488,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,38.12319696 N 122.938746 W,10.1007/s00248-020-01569-8,USA,Berlow,38.12319696,-122.938746
 SRR11825489,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,38.12327298 N 122.955462 W,10.1007/s00248-020-01569-8,USA,Berlow,38.12327298,-122.955462
@@ -500,7 +500,7 @@ SRR11825499,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,38.
 SRR11825500,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,38.02654297 N 122.883605 W,10.1007/s00248-020-01569-8,USA,Berlow,38.02654297,-122.883605
 SRR11825502,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,38.02704203 N 122.887843 W,10.1007/s00248-020-01569-8,USA,Berlow,38.02704203,-122.887843
 SRR11825503,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,38.02961896 N 122.881688 W,10.1007/s00248-020-01569-8,USA,Berlow,38.02961896,-122.881688
-SRR11825504,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,not collected,10.1007/s00248-020-01569-8,USA,Berlow,NA,A
+SRR11825504,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,not collected,10.1007/s00248-020-01569-8,USA,Berlow,N,
 SRR11825505,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,38.02881204 N 122.882687 W,10.1007/s00248-020-01569-8,USA,Berlow,38.02881204,-122.882687
 SRR11825506,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,37.90313202 N 122.723352 W,10.1007/s00248-020-01569-8,USA,Berlow,37.90313202,-122.723352
 SRR11825507,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,37.787964 N 122.478038 W,10.1007/s00248-020-01569-8,USA,Berlow,37.787964,-122.478038
@@ -515,7 +515,7 @@ SRR11825516,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,37.
 SRR11825517,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,37.91071898 N 122.334197 W,10.1007/s00248-020-01569-8,USA,Berlow,37.91071898,-122.334197
 SRR11825518,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,37.79602 N 122.48157 W,10.1007/s00248-020-01569-8,USA,Berlow,37.79602,-122.48157
 SRR11825519,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,37.90993896 N 122.333272 W,10.1007/s00248-020-01569-8,USA,Berlow,37.90993896,-122.333272
-SRR11825521,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,not collected,10.1007/s00248-020-01569-8,USA,Berlow,NA,A
+SRR11825521,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,not collected,10.1007/s00248-020-01569-8,USA,Berlow,N,
 SRR11825522,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,37.72455297 N 122.503666 W,10.1007/s00248-020-01569-8,USA,Berlow,37.72455297,-122.503666
 SRR11825523,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,37.72393799 N 122.50333 W,10.1007/s00248-020-01569-8,USA,Berlow,37.72393799,-122.50333
 SRR11825524,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,37.71812799 N 122.501195 W,10.1007/s00248-020-01569-8,USA,Berlow,37.71812799,-122.501195
@@ -524,7 +524,7 @@ SRR11825526,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,37.
 SRR11825527,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,37.71460298 N 122.500617 W,10.1007/s00248-020-01569-8,USA,Berlow,37.71460298,-122.500617
 SRR11825529,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,37.78605 N 122.48145 W,10.1007/s00248-020-01569-8,USA,Berlow,37.78605,-122.48145
 SRR11825530,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,37.90990502 N 122.338717 W,10.1007/s00248-020-01569-8,USA,Berlow,37.90990502,-122.338717
-SRR11825531,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,not collected,10.1007/s00248-020-01569-8,USA,Berlow,NA,A
+SRR11825531,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,not collected,10.1007/s00248-020-01569-8,USA,Berlow,N,
 SRR11825532,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,37.91025898 N 122.338999 W,10.1007/s00248-020-01569-8,USA,Berlow,37.91025898,-122.338999
 SRR11825533,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,37.90954703 N 122.339247 W,10.1007/s00248-020-01569-8,USA,Berlow,37.90954703,-122.339247
 SRR11825534,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,37.90926103 N 122.339971 W,10.1007/s00248-020-01569-8,USA,Berlow,37.90926103,-122.339971
