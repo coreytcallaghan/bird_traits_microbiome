@@ -1,492 +1,492 @@
-SampleID,Order,Family,Genus,Species,Sample_type,Lat_Long_OG,DOI,Location,Source,Latitude,Longitude
-SRR12961937,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.33361111
-SRR12961938,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.33361111
-SRR12961940,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.33361111
-SRR12961941,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.33361111
-SRR12961942,Passeriformes,#N/A,Meliphaanaloga,,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.33361111
-SRR12961943,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.33361111
-SRR12961944,Passeriformes,#N/A,Meliphaaruensis,,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.33361111
-SRR12961945,Passeriformes,Rhipiduridae,Rhipidura,threnothorax,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.33361111
-SRR12961946,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.33361111
-SRR12961947,Passeriformes,Rhagologidae,Rhagologus,leucostigma,Cloacal swabs,5.75944444 S 145.18027778 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.75944444,145.18027778
-SRR12961949,Passeriformes,Acanthizidae,Crateroscelis,nigrorufa,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12961950,Passeriformes,Acanthizidae,Sericornis,nouhuysi,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12961951,Passeriformes,Acanthizidae,Sericornis,nouhuysi,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12961953,Passeriformes,Petroicidae,Peneothello,cyanus,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12961954,Passeriformes,Acanthizidae,Sericornis,nouhuysi,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12961955,Passeriformes,Rhipiduridae,Rhipidura,atra,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12961957,Passeriformes,Rhipiduridae,Rhipidura,atra,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12961958,Passeriformes,Rhipiduridae,Rhipidura,atra,Cloacal swabs,5.75944444 S 145.18027778 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.75944444,145.18027778
-SRR12961959,Passeriformes,Acanthizidae,Sericornis,nouhuysi,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12961960,Passeriformes,Melanocharitidae,Melanocharis,striativentris,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12961961,Passeriformes,Petroicidae,Peneothello,cyanus,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12961962,Passeriformes,Meliphagidae,Timeliopsis,fulvigula,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12961963,Passeriformes,Acanthizidae,Crateroscelis,nigrorufa,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12961964,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12961965,Passeriformes,Estrildidae,Erythrura,trichroa,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12961966,Passeriformes,Petroicidae,Peneothello,cyanus,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12961967,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12961968,Passeriformes,Petroicidae,Peneothello,cyanus,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12961969,Passeriformes,Estrildidae,Erythrura,trichroa,Cloacal swabs,5.75944444 S 145.18027778 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.75944444,145.18027778
-SRR12961970,Passeriformes,Acanthizidae,Sericornis,nouhuysi,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12961971,Passeriformes,Melanocharitidae,Toxorhamphus,poliopterus,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12961972,Passeriformes,Petroicidae,Peneothello,cyanus,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12961973,Passeriformes,Acanthizidae,Sericornis,nouhuysi,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12961974,Passeriformes,Petroicidae,Peneothello,cyanus,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12961975,Passeriformes,Melanocharitidae,Melanocharis,striativentris,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12961976,Passeriformes,Melanocharitidae,Melanocharis,striativentris,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12961977,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12961978,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12961979,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12961981,Passeriformes,Acanthizidae,Sericornis,nouhuysi,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12961982,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12961983,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12961984,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12961985,Passeriformes,Acanthizidae,Sericornis,nouhuysi,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12961987,Passeriformes,Acanthizidae,Crateroscelis,robusta,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12961988,Passeriformes,Petroicidae,Peneothello,cyanus,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12961990,Passeriformes,Cnemophilidae,Cnemophilus,loriae,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12961991,Passeriformes,Melanocharitidae,Toxorhamphus,poliopterus,Cloacal swabs,5.75944444 S 145.18027778 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.75944444,145.18027778
-SRR12961994,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.33361111
-SRR12961995,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.33361111
-SRR12961996,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.33361111
-SRR12961997,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.33361111
-SRR12961998,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.33361111
-SRR12961999,Passeriformes,Estrildidae,Erythrura,trichroa,Cloacal swabs,5.75944444 S 145.18027778 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.75944444,145.18027778
-SRR12962000,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.33361111
-SRR12962001,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.33361111
-SRR12962002,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.33361111
-SRR12962003,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.33361111
-SRR12962004,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.33361111
-SRR12962005,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.33361111
-SRR12962006,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.33361111
-SRR12962008,Passeriformes,#N/A,Symposiachrus,guttula,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.33361111
-SRR12962009,Passeriformes,Sturnidae,Aplonis,metallica,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.33361111
-SRR12962010,Passeriformes,Melanocharitidae,Toxorhamphus,poliopterus,Cloacal swabs,5.75944444 S 145.18027778 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.75944444,145.18027778
-SRR12962011,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.33361111
-SRR12962012,Passeriformes,Rhipiduridae,Rhipidura,threnothorax,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.33361111
-SRR12962013,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.33361111
-SRR12962014,Passeriformes,Sturnidae,Aplonis,metallica,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.33361111
-SRR12962016,Passeriformes,Sturnidae,Aplonis,metallica,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.33361111
-SRR12962017,Passeriformes,#N/A,Symposiachrus,guttula,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.33361111
-SRR12962018,Passeriformes,#N/A,Symposiachrus,guttula,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.33361111
-SRR12962019,Passeriformes,#N/A,Symposiachrus,guttula,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.33361111
-SRR12962020,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.33361111
-SRR12962021,Passeriformes,Acanthizidae,Sericornis,perspicillatus,Cloacal swabs,5.75944444 S 145.18027778 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.75944444,145.18027778
-SRR12962022,Passeriformes,Petroicidae,Microeca,papuana,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12962023,Passeriformes,Meliphagidae,Melipotes,fumigatus,Cloacal swabs,5.75944444 S 145.18027778 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.75944444,145.18027778
-SRR12962024,Passeriformes,Estrildidae,Erythrura,trichroa,Cloacal swabs,5.75944444 S 145.18027778 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.75944444,145.18027778
-SRR12962026,Passeriformes,Petroicidae,Microeca,papuana,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12962027,Passeriformes,Acanthizidae,Sericornis,perspicillatus,Cloacal swabs,5.75944444 S 145.18027778 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.75944444,145.18027778
-SRR12962028,Passeriformes,Cnemophilidae,Cnemophilus,loriae,Cloacal swabs,5.75944444 S 145.18027778 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.75944444,145.18027778
-SRR12962029,Passeriformes,Acanthizidae,Sericornis,perspicillatus,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12962030,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,5.75944444 S 145.18027778 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.75944444,145.18027778
-SRR12962031,Passeriformes,Rhipiduridae,Rhipidura,atra,Cloacal swabs,5.75944444 S 145.18027778 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.75944444,145.18027778
-SRR12962032,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.33361111
-SRR12962033,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.33361111
-SRR12962034,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.33361111
-SRR12962036,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.33361111
-SRR12962037,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.33361111
-SRR12962038,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.33361111
-SRR12962039,Passeriformes,Meliphagidae,Ptiloprora,guisei,Cloacal swabs,5.75944444 S 145.18027778 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.75944444,145.18027778
-SRR12962040,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.33361111
-SRR12962041,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.33361111
-SRR12962042,Passeriformes,#N/A,Paramyth,montium,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962043,Passeriformes,Meliphagidae,Ptiloprora,guisei,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962044,Passeriformes,Meliphagidae,Myzomela,rosenbergii,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962045,Passeriformes,Pachycephalidae,Pachycephala,schlegelii,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962046,Passeriformes,Pachycephalidae,Pachycephala,schlegelii,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962047,Passeriformes,Acanthizidae,Sericornis,papuensis,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962048,Passeriformes,Acanthizidae,Sericornis,nouhuysi,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962049,Passeriformes,Meliphagidae,Meliphaga,aruensis,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.33361111
-SRR12962052,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.33361111
-SRR12962054,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.33361111
-SRR12962055,Passeriformes,Melanocharitidae,Toxorhamphus,poliopterus,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12962056,Passeriformes,Melanocharitidae,Toxorhamphus,poliopterus,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12962057,Passeriformes,Melanocharitidae,Toxorhamphus,poliopterus,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12962058,Passeriformes,Melanocharitidae,Toxorhamphus,poliopterus,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12962059,Passeriformes,Melanocharitidae,Melanocharis,striativentris,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12962061,Passeriformes,Rhipiduridae,Rhipidura,atra,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12962063,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12962064,Passeriformes,Petroicidae,Peneothello,cyanus,Cloacal swabs,5.75944444 S 145.18027778 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.75944444,145.18027778
-SRR12962066,Passeriformes,Melanocharitidae,Toxorhamphus,poliopterus,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12962067,Passeriformes,Melanocharitidae,Melanocharis,striativentris,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12962068,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12962069,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12962070,Passeriformes,Rhagologidae,Rhagologus,leucostigma,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12962071,Passeriformes,Rhipiduridae,Rhipidura,albolimbata,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12962072,Passeriformes,Acanthizidae,Crateroscelis,nigrorufa,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12962073,Passeriformes,Acanthizidae,Crateroscelis,nigrorufa,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12962074,Passeriformes,Acanthizidae,Crateroscelis,nigrorufa,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12962076,Passeriformes,Rhipiduridae,Rhipidura,atra,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12962077,Passeriformes,Petroicidae,Peneothello,cyanus,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12962078,Passeriformes,Petroicidae,Microeca,papuana,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.19833333
-SRR12962079,Passeriformes,Meliphagidae,Myzomela,rosenbergii,Cloacal swabs,5.75944444 S 145.18027778 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.75944444,145.18027778
-SRR12962080,Passeriformes,Meliphagidae,Melidectes,rufocrissalis,Cloacal swabs,5.75944444 S 145.18027778 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.75944444,145.18027778
-SRR12962081,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.75944444 S 145.18027778 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.75944444,145.18027778
-SRR12962082,Passeriformes,Acanthizidae,Sericornis,perspicillatus,Cloacal swabs,5.75944444 S 145.18027778 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.75944444,145.18027778
-SRR12962083,Passeriformes,Rhipiduridae,Rhipidura,albolimbata,Cloacal swabs,5.75944444 S 145.18027778 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.75944444,145.18027778
-SRR12962664,Passeriformes,Meliphagidae,Melidectes,rufocrissalis,Cloacal swabs,5.75944444 S 145.18027778 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.75944444,145.18027778
-SRR12962665,Passeriformes,Acanthizidae,Sericornis,nouhuysi,Cloacal swabs,5.75944444 S 145.18027778 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.75944444,145.18027778
-SRR12962666,Passeriformes,Pachycephalidae,Melanorectes,nigrescens,Cloacal swabs,5.75944444 S 145.18027778 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.75944444,145.18027778
-SRR12962667,Passeriformes,Pachycephalidae,Colluricincla,megarhyncha,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962669,Passeriformes,Meliphagidae,Melipotes,fumigatus,Cloacal swabs,5.75944444 S 145.18027778 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.75944444,145.18027778
-SRR12962670,Passeriformes,Meliphagidae,Melidectes,rufocrissalis,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962671,Passeriformes,Meliphagidae,Melidectes,rufocrissalis,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962672,Passeriformes,Meliphagidae,Melipotes,fumigatus,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962673,Passeriformes,Pachycephalidae,Pachycephala,schlegelii,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962674,Passeriformes,Pachycephalidae,Pachycephala,schlegelii,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962675,Passeriformes,Ifritidae,Ifrita,kowaldi,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962676,Passeriformes,Ifritidae,Ifrita,kowaldi,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962677,Passeriformes,Pachycephalidae,Paramythia,montium,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962678,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962679,Passeriformes,#N/A,BMelipotes,fumigatus,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962680,Passeriformes,#N/A,BMelipotes,fumigatus,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962681,Passeriformes,Ifritidae,Ifrita,kowaldi,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962682,Passeriformes,Meliphagidae,Melidectes,rufocrissalis,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962683,Passeriformes,Meliphagidae,Melipotes,fumigatus,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962684,Passeriformes,Meliphagidae,Melipotes,fumigatus,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962685,Passeriformes,Meliphagidae,Melipotes,fumigatus,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962686,Passeriformes,Petroicidae,Heteromyias,armiti,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962687,Passeriformes,Pachycephalidae,Melanorectes,nigrescens,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962688,Passeriformes,Estrildidae,Erythrura,trichroa,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962689,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962690,Passeriformes,Pachycephalidae,Colluricincla,megarhyncha,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962691,Passeriformes,Meliphagidae,Meliphaga,analoga,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962692,Passeriformes,Meliphagidae,Meliphaga,analoga,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962693,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962694,Passeriformes,Acanthizidae,Sericornis,nouhuysi,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962695,Passeriformes,Pachycephalidae,Pachycephala,schlegelii,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962696,Passeriformes,#N/A,Paramythia,montium,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962697,Passeriformes,#N/A,Paramythia,montium,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962698,Passeriformes,Petroicidae,Heteromyias,armiti,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962699,Passeriformes,Petroicidae,Heteromyias,armiti,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962700,Passeriformes,Petroicidae,Heteromyias,armiti,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962701,Passeriformes,Pachycephalidae,Pachycephala,schlegelii,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962702,Passeriformes,Petroicidae,Microeca,papuana,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962704,Passeriformes,Meliphagidae,Meliphaga,analoga,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962705,Passeriformes,Meliphagidae,Ptiloprora,guisei,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962706,Passeriformes,Rhipiduridae,Rhipidura,atra,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962707,Passeriformes,Rhipiduridae,Rhipidura,atra,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962708,Passeriformes,Petroicidae,Heteromyias,armiti,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962709,Passeriformes,Rhipiduridae,Rhipidura,albolimbata,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962710,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962711,Passeriformes,Meliphagidae,Ptiloprora,guisei,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962712,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962714,Passeriformes,Oriolidae,Pitohui,kirhocephalus,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962715,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962716,Passeriformes,Oriolidae,Pitohui,kirhocephalus,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962717,Passeriformes,Oriolidae,Pitohui,kirhocephalus,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962718,Passeriformes,Sturnidae,Aplonis,metallica,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962720,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962721,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962722,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962724,Passeriformes,#N/A,Meliphaaruensis,,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962725,Passeriformes,Sturnidae,Aplonis,metallica,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962726,Passeriformes,Monarchidae,Arses,insularis,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962727,Passeriformes,Sturnidae,Aplonis,metallica,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962728,Passeriformes,Sturnidae,Aplonis,metallica,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962729,Passeriformes,Sturnidae,Aplonis,metallica,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962730,Passeriformes,Sturnidae,Aplonis,metallica,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962731,Passeriformes,Sturnidae,Aplonis,metallica,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962732,Passeriformes,Meliphagidae,Meliphaga,analoga,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962733,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962734,Passeriformes,#N/A,Symposiachrus,guttula,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962735,Passeriformes,Meliphagidae,Meliphaga,analoga,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962736,Passeriformes,Pachycephalidae,Colluricincla,megarhyncha,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962737,Passeriformes,#N/A,Symposiachrus,guttula,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962738,Passeriformes,Meliphagidae,Meliphaga,analoga,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962740,Passeriformes,#N/A,Symposiachrus,guttula,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962741,Passeriformes,Meliphagidae,Meliphaga,aruensis,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962742,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962743,Passeriformes,Monarchidae,Arses,insularis,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962745,Passeriformes,Oriolidae,Pitohui,dichrous,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962746,Passeriformes,Pachycephalidae,Colluricincla,megarhyncha,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962747,Passeriformes,#N/A,Meliphaaruensis,,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962748,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962749,Passeriformes,#N/A,Meliphaanaloga,,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962750,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962752,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962753,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962754,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962755,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.06916667
-SRR12962759,Passeriformes,#N/A,Symposiarchus,insularis,Regurgitated sample,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.76305556
-SRR12962762,Passeriformes,#N/A,Lorius,lory,Regurgitated sample,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.76305556
-SRR12962763,Passeriformes,#N/A,Ceyx,solitarius,Regurgitated sample,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.76305556
-SRR12962764,Passeriformes,Rhipiduridae,Chaetorhynchus,papuensis,Regurgitated sample,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.76305556
-SRR12962765,Passeriformes,#N/A,Ptilinopus,magnificus,Regurgitated sample,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.76305556
-SRR12962766,Passeriformes,Sturnidae,Aplonis,cantoroides,Regurgitated sample,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.76305556
-SRR12962767,Passeriformes,Sturnidae,Aplonis,cantoroides,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.76305556
-SRR12962768,Passeriformes,#N/A,Ceyx,solitarius,Regurgitated sample,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.76305556
-SRR12962769,Passeriformes,#N/A,Ptilinopus,magnificus,Regurgitated sample,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.76305556
-SRR12962770,Passeriformes,#N/A,Ceyx,solitarius,Regurgitated sample,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.76305556
-SRR12962771,Passeriformes,#N/A,Ptilinopus,pulchellus,Regurgitated sample,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.76305556
-SRR12962773,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Regurgitated sample,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.76305556
-SRR12962774,Passeriformes,#N/A,Symposiarchus,insularis,Regurgitated sample,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.76305556
-SRR12962775,Passeriformes,#N/A,Ptilinopus,pulchellus,Regurgitated sample,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.76305556
-SRR12962777,Passeriformes,#N/A,Symposiarchus,guttula,Regurgitated sample,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.76305556
-SRR12962778,Passeriformes,Sturnidae,Aplonis,cantoroides,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.76305556
-SRR12962779,Passeriformes,#N/A,Micropsitta,pusio,Regurgitated sample,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.76305556
-SRR12962780,Passeriformes,#N/A,Symposiarchus,insularis,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.76305556
-SRR12962782,Passeriformes,Rhipiduridae,Rhipidura,rufiventris,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.76305556
-SRR12962783,Passeriformes,#N/A,Micropsitta,pusio,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.76305556
-SRR12962784,Passeriformes,#N/A,Micropsitta,pusio,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.76305556
-SRR12962785,Passeriformes,#N/A,Ptilinopus,coronulatus,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.76305556
-SRR12962787,Passeriformes,Meliphagidae,Melilestes,megarhynchus,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.76305556
-SRR12962788,Passeriformes,Sturnidae,Aplonis,cantoroides,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.76305556
-SRR12962789,Passeriformes,Sturnidae,Aplonis,cantoroides,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.76305556
-SRR12962790,Passeriformes,Meliphagidae,Melilestes,megarhynchus,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.76305556
-SRR12962791,Passeriformes,#N/A,Ptilinopus,pulchellus,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.76305556
-SRR12962792,Passeriformes,#N/A,Ceyx,solitarius,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.76305556
-SRR12962794,Passeriformes,Oriolidae,Pitohui,kirhocephalus,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.76305556
-SRR12962795,Passeriformes,#N/A,Lorius,lory,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.76305556
-SRR12962797,Passeriformes,Meliphagidae,Melilestes,megarhynchus,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.76305556
-SRR12962798,Passeriformes,#N/A,Dacelo,gaudichaud,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.76305556
-SRR12962799,Passeriformes,#N/A,Micropsitta,pusio,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.76305556
-SRR12962800,Passeriformes,#N/A,Symposiarchus,guttula,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.76305556
-SRR12962801,Passeriformes,Melanocharitidae,Melanocharis,nigra,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.76305556
-SRR12962802,Passeriformes,#N/A,Chalcophaps,stephani,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.76305556
-SRR12962803,Passeriformes,#N/A,Cyclopsitta,diophthalma,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.76305556
-SRR12962804,Passeriformes,#N/A,Ptilinopus,magnificus,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.76305556
-SRR12962805,Passeriformes,Sturnidae,Aplonis,cantoroides,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.76305556
-SRR12962807,Passeriformes,Pachycephalidae,Pachycephala,simplex,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.76305556
-SRR12962808,Passeriformes,Pachycephalidae,Pachycephala,simplex,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.76305556
-SRR12962809,Columbiformes,Columbidae,Ptilinopus,iozonus,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.76305556
-SRR12962810,Columbiformes,Columbidae,Ptilinopus,magnificus,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.76305556
-SRR12962811,Passeriformes,"	Coraciiformes",Ceyx,solitarius,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.76305556
-SRR12962812,Columbiformes,Columbidae,Ptilinopus,pulchellus,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.76305556
-SRR12962813,Passeriformes,Monarchidae,Symposiarchus,guttula,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.76305556
-SRR12962814,Psittaciformes,Psittaculidae,Micropsitta,pusio,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.76305556
-SRR12962815,Passeriformes,Melanocharitidae,Toxorhamphus,poliopterus,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.91583333
-SRR12962817,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.91583333
-SRR12962818,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.91583333
-SRR12962819,Passeriformes,Petroicidae,Peneothello,cyanus,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.91583333
-SRR12962820,Passeriformes,Rhipiduridae,Rhipidura,atra,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.91583333
-SRR12962821,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.91583333
-SRR12962823,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.91583333
-SRR12962824,Passeriformes,Acanthizidae,Sericornis,nouhuysi,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.91583333
-SRR12962825,Passeriformes,Rhagologidae,Rhagologus,leucostigma,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962826,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.91583333
-SRR12962827,Passeriformes,Petroicidae,Peneothello,cyanus,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.91583333
-SRR12962828,Passeriformes,Melanocharitidae,Melanocharis,striativentris,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.91583333
-SRR12962829,Passeriformes,Petroicidae,Peneothello,cyanus,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.91583333
-SRR12962830,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.91583333
-SRR12962831,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.91583333
-SRR12962832,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.91583333
-SRR12962833,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.91583333
-SRR12962835,Passeriformes,Rhipiduridae,Rhipidura,atra,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.91583333
-SRR12962838,Passeriformes,Meliphagidae,Timeliopsis,fulvigula,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.91583333
-SRR12962839,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.91583333
-SRR12962840,Passeriformes,Melanocharitidae,Toxorhamphus,poliopterus,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.91583333
-SRR12962841,Passeriformes,Melanocharitidae,Melanocharis,striativentris,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.91583333
-SRR12962842,Passeriformes,Melanocharitidae,Toxorhamphus,poliopterus,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.91583333
-SRR12962843,Passeriformes,Rhagologidae,Rhagologus,leucostigma,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.91583333
-SRR12962844,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.91583333
-SRR12962845,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.91583333
-SRR12962847,Passeriformes,Petroicidae,Peneothello,cyanus,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962848,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.91583333
-SRR12962849,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.91583333
-SRR12962850,Passeriformes,Rhipiduridae,Rhipidura,atra,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.91583333
-SRR12962851,Passeriformes,Estrildidae,Erythrura,trichroa,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.91583333
-SRR12962852,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.91583333
-SRR12962853,Passeriformes,Melanocharitidae,Toxorhamphus,poliopterus,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.91583333
-SRR12962854,Passeriformes,Melanocharitidae,Melanocharis,striativentris,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.91583333
-SRR12962855,Passeriformes,Oriolidae,Pitohui,dichrous,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.91583333
-SRR12962856,Passeriformes,Melanocharitidae,Toxorhamphus,poliopterus,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.91583333
-SRR12962857,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962858,Passeriformes,Pachycephalidae,Pachycephala,schlegelii,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962860,Passeriformes,Petroicidae,Microeca,papuana,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962861,Passeriformes,Meliphagidae,Ptiloprora,guisei,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962863,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962864,Passeriformes,Rhagologidae,Rhagologus,leucostigma,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962865,Passeriformes,Rhipiduridae,Rhipidura,atra,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962866,Passeriformes,Acanthizidae,Crateroscelis,robusta,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962867,Passeriformes,Pachycephalidae,Pachycephala,schlegelii,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962868,Passeriformes,Rhipiduridae,Rhipidura,albolimbata,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962869,Passeriformes,Rhagologidae,Rhagologus,leucostigma,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962870,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962871,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962872,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962873,Passeriformes,Acanthizidae,Sericornis,papuensis,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962874,Passeriformes,Acanthizidae,Sericornis,nouhuysi,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962875,Passeriformes,Petroicidae,Peneothello,cyanus,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.91583333
-SRR12962876,Passeriformes,Acanthizidae,Crateroscelis,robusta,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962877,Passeriformes,Acanthizidae,Sericornis,papuensis,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962878,Passeriformes,Acanthizidae,Crateroscelis,robusta,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962879,Passeriformes,Acanthizidae,Crateroscelis,robusta,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962880,Passeriformes,Acanthizidae,Crateroscelis,robusta,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962881,Passeriformes,Acanthizidae,Crateroscelis,robusta,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962884,Passeriformes,Acanthizidae,Sericornis,nouhuysi,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962886,Passeriformes,Acanthizidae,Sericornis,nouhuysi,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962887,Passeriformes,Petroicidae,Microeca,papuana,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962888,Passeriformes,Meliphagidae,Ptiloprora,guisei,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962889,Passeriformes,Meliphagidae,Ptiloprora,guisei,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962890,Passeriformes,Meliphagidae,Ptiloprora,guisei,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962891,Passeriformes,Meliphagidae,Ptiloprora,guisei,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962892,Passeriformes,Petroicidae,Heteromyias,armiti,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962893,Passeriformes,Acanthizidae,Sericornis,papuensis,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962894,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962896,Passeriformes,Melanocharitidae,Melanocharis,striativentris,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.91583333
-SRR12962898,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962900,Passeriformes,Meliphagidae,Ptiloprora,guisei,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962901,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962902,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962903,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962904,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.91583333
-SRR12962906,Passeriformes,Meliphagidae,Ptiloprora,guisei,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962907,Passeriformes,Petroicidae,Microeca,papuana,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962908,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962909,Passeriformes,Meliphagidae,Ptiloprora,guisei,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962910,Passeriformes,Meliphagidae,Ptiloprora,guisei,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962911,Passeriformes,Meliphagidae,Ptiloprora,guisei,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962912,Passeriformes,Pachycephalidae,Pachycephala,schlegelii,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962913,Passeriformes,Acanthizidae,Sericornis,papuensis,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962914,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962915,Passeriformes,Pachycephalidae,Pachycephala,schlegelii,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962916,Passeriformes,Rhipiduridae,Rhipidura,albolimbata,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.91583333
-SRR12962917,Passeriformes,Acanthizidae,Sericornis,nouhuysi,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.91583333
-SRR12962918,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.91583333
-SRR12962919,Passeriformes,Melanocharitidae,Melanocharis,striativentris,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.91583333
-SRR12962920,Passeriformes,Melanocharitidae,Toxorhamphus,poliopterus,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.91583333
-SRR12962921,Passeriformes,Petroicidae,Peneothello,cyanus,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.91583333
-SRR12962922,Passeriformes,Acanthizidae,Sericornis,nouhuysi,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.91583333
-SRR12962923,Passeriformes,Melanocharitidae,Melanocharis,striativentris,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.91583333
-SRR12962925,Passeriformes,Melanocharitidae,Melanocharis,striativentris,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.91583333
-a401,Columbiformes,Columbidae,Turtur,afer,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a402,Columbiformes,Columbidae,Turtur,tympanistra,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a403,Cuculiformes,Cuculidae,Cercococcyx,olivinus,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a404,Apodiformes,Apodidae,Apus,affinis,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a405,Charadriiformes,Scolopacidae,Actitis,hypoleucos,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a408,Coraciiformes,Alcedinidae,Alcedo,quadribrachys,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a409a,Coraciiformes,Alcedinidae,Corythornis (Alcedo),leucogaster,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a409b,Coraciiformes,Alcedinidae,Corythornis (Alcedo),leucogaster,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a410a,Piciformes,Indicatoridae,Indicator,maculatus,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a410b,Piciformes,Indicatoridae,Indicator,maculatus,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a411,Piciformes,Lybiidae,Pogoniulus,bilineatus,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a412a,Piciformes,Picidae,Campethera,nivosa,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a412bS2,Piciformes,Picidae,Campethera,nivosa,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a412cS2,Piciformes,Picidae,Campethera,nivosa,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a412d,Piciformes,Picidae,Campethera,nivosa,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a413a,Piciformes,Picidae,Campethera,nivosa,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a413b,Piciformes,Picidae,Campethera,nivosa,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a414x,Passeriformes,Cettiidae,Hylia,prasina,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a414y,Passeriformes,Cettiidae,Hylia,prasina,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a417a,Passeriformes,Cettiidae,Hylia,prasina,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a417b,Passeriformes,Cettiidae,Hylia,prasina,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a418a,Passeriformes,Cettiidae,Hylia,prasina,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a418b,Passeriformes,Cettiidae,Hylia,prasina,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a419,Passeriformes,Cisticolidae,Bathmocercus,rufus,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a423,Passeriformes,Cisticolidae,Camaroptera,brachyura,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a427,Passeriformes,Cisticolidae,Camaroptera,chloronota,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a430,Passeriformes,Cisticolidae,Camaroptera,chloronota,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a432,Passeriformes,Cisticolidae,Poliolais,lopezi,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a435a,Passeriformes,Cisticolidae,Prinia,bairdii,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a435b,Passeriformes,Cisticolidae,Prinia,bairdii,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a438a,Passeriformes,Estrildidae,Cryptospiza,reichenovii,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a438b,Passeriformes,Estrildidae,Cryptospiza,reichenovii,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a438c,Passeriformes,Estrildidae,Cryptospiza,reichenovii,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a439a,Passeriformes,Estrildidae,Estrilda,astrild,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a439b,Passeriformes,Estrildidae,Estrilda,astrild,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a440,Passeriformes,Estrildidae,Estrilda,atricapilla,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a443,Passeriformes,Estrildidae,Estrilda,atricapilla,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a444,Passeriformes,Estrildidae,Estrilda,atricapilla,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a445a,Passeriformes,Nectariniidae,Cyanomitra (Nectarinia),olivacea,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a445b,Passeriformes,Nectariniidae,Cyanomitra (Nectarinia),olivacea,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a448a,Passeriformes,Estrildidae,Nigrita,canicapillus,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a448b,Passeriformes,Estrildidae,Nigrita,canicapillus,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a448c,Passeriformes,Estrildidae,Nigrita,canicapillus,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a453,Passeriformes,Estrildidae,Spermestes (Lonchura),bicolor,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a454a,Passeriformes,Estrildidae,Spermestes (Lonchura),cucullata,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a454b,Passeriformes,Estrildidae,Spermestes (Lonchura),cucullata,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a456,Passeriformes,Estrildidae,Spermophaga,haematina,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a457,Passeriformes,Eurylaimidae,Smithornis,rufolateralis,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a458a,Passeriformes,Fringillidae,Linurgus,olivaceus,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a458b,Passeriformes,Fringillidae,Linurgus,olivaceus,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a459,Passeriformes,Hirundinidae,Cecropis (Hirundo),abyssinica,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a461a,Passeriformes,Hirundinidae,Hirundo,aethiopica,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a461b,Passeriformes,Hirundinidae,Hirundo,aethiopica,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a468,Passeriformes,Hirundinidae,Hirundo,nigrita,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a469y,Passeriformes,Hirundinidae,Psalidoprocne,fuliginosa,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a470a,Passeriformes,Hirundinidae,Psalidoprocne,nitens,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a470b,Passeriformes,Hirundinidae,Psalidoprocne,nitens,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a472a,Passeriformes,Macrosphenidae,Sylvietta,virens,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a472b,Passeriformes,Macrosphenidae,Sylvietta,virens,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a474,Passeriformes,Malaconotidae,Tchagra,australis,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a475x,Passeriformes,Monarchidae,Terpsiphone,rufiventer,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a475y,Passeriformes,Monarchidae,Terpsiphone,rufiventer,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a476,Passeriformes,Monarchidae,Terpsiphone,viridis,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a481a,Passeriformes,Monarchidae,Terpsiphone,viridis,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a481b,Passeriformes,Monarchidae,Terpsiphone,viridis,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a485,Passeriformes,Muscicapidae,Alethe,castanea (diademata),intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a492a,Passeriformes,Muscicapidae,Chamaetylas (Alethe),poliocephala,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a492b,Passeriformes,Muscicapidae,Chamaetylas (Alethe),poliocephala,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a501ax,Passeriformes,Muscicapidae,Chamaetylas (Alethe),poliocephala,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a501ay,Passeriformes,Muscicapidae,Chamaetylas (Alethe),poliocephala,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a501bx,Passeriformes,Muscicapidae,Chamaetylas (Alethe),poliocephala,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a501by,Passeriformes,Muscicapidae,Chamaetylas (Alethe),poliocephala,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a501cx,Passeriformes,Muscicapidae,Chamaetylas (Alethe),poliocephala,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a501cy,Passeriformes,Muscicapidae,Chamaetylas (Alethe),poliocephala,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a502b,Passeriformes,Muscicapidae,Cossyphicula,roberti,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a502c,Passeriformes,Muscicapidae,Cossyphicula,roberti,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a502d,Passeriformes,Muscicapidae,Cossyphicula,roberti,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a505,Passeriformes,Muscicapidae,Muscicapa,infuscata,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a510,Passeriformes,Muscicapidae,Muscicapa,sethsmithi,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a513,Passeriformes,Muscicapidae,Sheppardia,bocagei,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a517a,Passeriformes,Muscicapidae,Sheppardia,cyornithopsis,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a517b,Passeriformes,Muscicapidae,Sheppardia,cyornithopsis,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a523,Passeriformes,Muscicapidae,Stiphrornis,erythrothorax,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a524S2,Passeriformes,Muscicapidae,Stiphrornis,erythrothorax,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a527,Passeriformes,Nectariniidae,Hedydipna (Anthodiaeta),collaris,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a530,Passeriformes,Nectariniidae,Anthreptes (Nectarinia),seimundi,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a531a,Passeriformes,Nectariniidae,Cinnyris (Nectarinia),batesi,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a531b,Passeriformes,Nectariniidae,Cinnyris (Nectarinia),batesi,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a533,Passeriformes,Nectariniidae,Cinnyris (Nectarinia),reichenowi,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a534a,Passeriformes,Nectariniidae,Cyanomitra (Nectarinia),olivacea,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a535a,Passeriformes,Nectariniidae,Cyanomitra (Nectarinia),olivacea,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a535b,Passeriformes,Nectariniidae,Cyanomitra (Nectarinia),olivacea,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a536a,Passeriformes,Nectariniidae,Cyanomitra (Nectarinia),oritis,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a536b,Passeriformes,Nectariniidae,Cyanomitra (Nectarinia),oritis,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a537,Passeriformes,Nicatoridae,Nicator,chloris,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a539,Passeriformes,Pellorneidae,Illadopsis,fulvescens,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a544,Passeriformes,Phylloscopidae,Phylloscopus,herberti,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a545,Passeriformes,Platysteiridae,Platysteira,castanea,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a548,Passeriformes,Platysteiridae,Platysteira,castanea,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a554,Passeriformes,Platysteiridae,Platysteira,chalybea,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a557,Passeriformes,Ploceidae,Ploceus,albinucha,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a561b,Passeriformes,Ploceidae,Ploceus,nigricollis,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a564,Passeriformes,Pycnonotidae,Arizelocichla (Andropadus),tephrolaema (-us),intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a568cx,Passeriformes,Pycnonotidae,Bleda,notatus,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a568cy,Passeriformes,Pycnonotidae,Bleda,notatus,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a574x,Passeriformes,Pycnonotidae,Bleda,notatus,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a574y,Passeriformes,Pycnonotidae,Bleda,notatus,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a578,Passeriformes,Pycnonotidae,Criniger,calurus,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a580,Passeriformes,Pycnonotidae,Criniger,chloronotus,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a584,Passeriformes,Pycnonotidae,Criniger,ndussumensis,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a591,Passeriformes,Pycnonotidae,Eurillas (Andropadus),latirostris,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a599a,Passeriformes,Pycnonotidae,Eurillas (Andropadus),latirostris,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a599b,Passeriformes,Pycnonotidae,Eurillas (Andropadus),latirostris,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a618S2,Passeriformes,Pycnonotidae,Eurillas (Andropadus),virens,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a620a,Passeriformes,Pycnonotidae,Eurillas (Andropadus),virens,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a620b,Passeriformes,Pycnonotidae,Eurillas (Andropadus),virens,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a625,Passeriformes,Pycnonotidae,Phyllastrephus,poensis,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a633a,Passeriformes,Stenostiridae,Elminia,albiventris,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a633b,Passeriformes,Stenostiridae,Elminia,albiventris,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a634a,Passeriformes,Sylviidae,Sylvia (Pseudoalcippe),abyssinica,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a634bS2,Passeriformes,Sylviidae,Sylvia (Pseudoalcippe),abyssinica,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a634d,Passeriformes,Sylviidae,Sylvia (Pseudoalcippe),abyssinica,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a640a,Passeriformes,Turdidae,Neocossyphus,poensis,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a640b,Passeriformes,Turdidae,Neocossyphus,poensis,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a643b,Passeriformes,Turdidae,Neocossyphus,poensis,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a650S2,Passeriformes,Turdidae,Neocossyphus,rufus,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a653a,Passeriformes,Turdidae,Turdus,pelios,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a653b,Passeriformes,Turdidae,Turdus,pelios,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a655a,Passeriformes,Viduidae,Vidua,macroura,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a655b,Passeriformes,Viduidae,Vidua,macroura,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.71145017357701,10.463714317137
-a656,Passeriformes,Zosteropidae,Zosterops (Speirops),brunneus,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
-a658S2,Passeriformes,Zosteropidae,Zosterops,senegalensis,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.63172925181662,8.75442417994625
+SampleID,Order,Family,Genus,Species,Sample_type,Lat_Long_OG,DOI,Location,Source,Latitude,Logitude
+SRR12961937,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.3336111
+SRR12961938,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.3336111
+SRR12961940,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.3336111
+SRR12961941,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.3336111
+SRR12961942,Passeriformes,#N/A,Meliphaanaloga,,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.3336111
+SRR12961943,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.3336111
+SRR12961944,Passeriformes,#N/A,Meliphaaruensis,,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.3336111
+SRR12961945,Passeriformes,Rhipiduridae,Rhipidura,threnothorax,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.3336111
+SRR12961946,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.3336111
+SRR12961947,Passeriformes,Rhagologidae,Rhagologus,leucostigma,Cloacal swabs,5.75944444 S 145.18027778 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.75944444,145.1802778
+SRR12961949,Passeriformes,Acanthizidae,Crateroscelis,nigrorufa,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12961950,Passeriformes,Acanthizidae,Sericornis,nouhuysi,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12961951,Passeriformes,Acanthizidae,Sericornis,nouhuysi,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12961953,Passeriformes,Petroicidae,Peneothello,cyanus,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12961954,Passeriformes,Acanthizidae,Sericornis,nouhuysi,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12961955,Passeriformes,Rhipiduridae,Rhipidura,atra,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12961957,Passeriformes,Rhipiduridae,Rhipidura,atra,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12961958,Passeriformes,Rhipiduridae,Rhipidura,atra,Cloacal swabs,5.75944444 S 145.18027778 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.75944444,145.1802778
+SRR12961959,Passeriformes,Acanthizidae,Sericornis,nouhuysi,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12961960,Passeriformes,Melanocharitidae,Melanocharis,striativentris,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12961961,Passeriformes,Petroicidae,Peneothello,cyanus,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12961962,Passeriformes,Meliphagidae,Timeliopsis,fulvigula,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12961963,Passeriformes,Acanthizidae,Crateroscelis,nigrorufa,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12961964,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12961965,Passeriformes,Estrildidae,Erythrura,trichroa,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12961966,Passeriformes,Petroicidae,Peneothello,cyanus,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12961967,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12961968,Passeriformes,Petroicidae,Peneothello,cyanus,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12961969,Passeriformes,Estrildidae,Erythrura,trichroa,Cloacal swabs,5.75944444 S 145.18027778 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.75944444,145.1802778
+SRR12961970,Passeriformes,Acanthizidae,Sericornis,nouhuysi,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12961971,Passeriformes,Melanocharitidae,Toxorhamphus,poliopterus,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12961972,Passeriformes,Petroicidae,Peneothello,cyanus,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12961973,Passeriformes,Acanthizidae,Sericornis,nouhuysi,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12961974,Passeriformes,Petroicidae,Peneothello,cyanus,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12961975,Passeriformes,Melanocharitidae,Melanocharis,striativentris,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12961976,Passeriformes,Melanocharitidae,Melanocharis,striativentris,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12961977,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12961978,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12961979,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12961981,Passeriformes,Acanthizidae,Sericornis,nouhuysi,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12961982,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12961983,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12961984,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12961985,Passeriformes,Acanthizidae,Sericornis,nouhuysi,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12961987,Passeriformes,Acanthizidae,Crateroscelis,robusta,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12961988,Passeriformes,Petroicidae,Peneothello,cyanus,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12961990,Passeriformes,Cnemophilidae,Cnemophilus,loriae,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12961991,Passeriformes,Melanocharitidae,Toxorhamphus,poliopterus,Cloacal swabs,5.75944444 S 145.18027778 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.75944444,145.1802778
+SRR12961994,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.3336111
+SRR12961995,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.3336111
+SRR12961996,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.3336111
+SRR12961997,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.3336111
+SRR12961998,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.3336111
+SRR12961999,Passeriformes,Estrildidae,Erythrura,trichroa,Cloacal swabs,5.75944444 S 145.18027778 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.75944444,145.1802778
+SRR12962000,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.3336111
+SRR12962001,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.3336111
+SRR12962002,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.3336111
+SRR12962003,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.3336111
+SRR12962004,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.3336111
+SRR12962005,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.3336111
+SRR12962006,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.3336111
+SRR12962008,Passeriformes,#N/A,Symposiachrus,guttula,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.3336111
+SRR12962009,Passeriformes,Sturnidae,Aplonis,metallica,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.3336111
+SRR12962010,Passeriformes,Melanocharitidae,Toxorhamphus,poliopterus,Cloacal swabs,5.75944444 S 145.18027778 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.75944444,145.1802778
+SRR12962011,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.3336111
+SRR12962012,Passeriformes,Rhipiduridae,Rhipidura,threnothorax,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.3336111
+SRR12962013,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.3336111
+SRR12962014,Passeriformes,Sturnidae,Aplonis,metallica,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.3336111
+SRR12962016,Passeriformes,Sturnidae,Aplonis,metallica,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.3336111
+SRR12962017,Passeriformes,#N/A,Symposiachrus,guttula,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.3336111
+SRR12962018,Passeriformes,#N/A,Symposiachrus,guttula,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.3336111
+SRR12962019,Passeriformes,#N/A,Symposiachrus,guttula,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.3336111
+SRR12962020,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.3336111
+SRR12962021,Passeriformes,Acanthizidae,Sericornis,perspicillatus,Cloacal swabs,5.75944444 S 145.18027778 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.75944444,145.1802778
+SRR12962022,Passeriformes,Petroicidae,Microeca,papuana,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12962023,Passeriformes,Meliphagidae,Melipotes,fumigatus,Cloacal swabs,5.75944444 S 145.18027778 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.75944444,145.1802778
+SRR12962024,Passeriformes,Estrildidae,Erythrura,trichroa,Cloacal swabs,5.75944444 S 145.18027778 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.75944444,145.1802778
+SRR12962026,Passeriformes,Petroicidae,Microeca,papuana,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12962027,Passeriformes,Acanthizidae,Sericornis,perspicillatus,Cloacal swabs,5.75944444 S 145.18027778 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.75944444,145.1802778
+SRR12962028,Passeriformes,Cnemophilidae,Cnemophilus,loriae,Cloacal swabs,5.75944444 S 145.18027778 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.75944444,145.1802778
+SRR12962029,Passeriformes,Acanthizidae,Sericornis,perspicillatus,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12962030,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,5.75944444 S 145.18027778 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.75944444,145.1802778
+SRR12962031,Passeriformes,Rhipiduridae,Rhipidura,atra,Cloacal swabs,5.75944444 S 145.18027778 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.75944444,145.1802778
+SRR12962032,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.3336111
+SRR12962033,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.3336111
+SRR12962034,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.3336111
+SRR12962036,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.3336111
+SRR12962037,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.3336111
+SRR12962038,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.3336111
+SRR12962039,Passeriformes,Meliphagidae,Ptiloprora,guisei,Cloacal swabs,5.75944444 S 145.18027778 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.75944444,145.1802778
+SRR12962040,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.3336111
+SRR12962041,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.3336111
+SRR12962042,Passeriformes,#N/A,Paramyth,montium,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962043,Passeriformes,Meliphagidae,Ptiloprora,guisei,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962044,Passeriformes,Meliphagidae,Myzomela,rosenbergii,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962045,Passeriformes,Pachycephalidae,Pachycephala,schlegelii,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962046,Passeriformes,Pachycephalidae,Pachycephala,schlegelii,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962047,Passeriformes,Acanthizidae,Sericornis,papuensis,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962048,Passeriformes,Acanthizidae,Sericornis,nouhuysi,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962049,Passeriformes,Meliphagidae,Meliphaga,aruensis,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.3336111
+SRR12962052,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.3336111
+SRR12962054,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.74250000 S 145.33361111 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7425,145.3336111
+SRR12962055,Passeriformes,Melanocharitidae,Toxorhamphus,poliopterus,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12962056,Passeriformes,Melanocharitidae,Toxorhamphus,poliopterus,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12962057,Passeriformes,Melanocharitidae,Toxorhamphus,poliopterus,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12962058,Passeriformes,Melanocharitidae,Toxorhamphus,poliopterus,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12962059,Passeriformes,Melanocharitidae,Melanocharis,striativentris,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12962061,Passeriformes,Rhipiduridae,Rhipidura,atra,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12962063,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12962064,Passeriformes,Petroicidae,Peneothello,cyanus,Cloacal swabs,5.75944444 S 145.18027778 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.75944444,145.1802778
+SRR12962066,Passeriformes,Melanocharitidae,Toxorhamphus,poliopterus,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12962067,Passeriformes,Melanocharitidae,Melanocharis,striativentris,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12962068,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12962069,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12962070,Passeriformes,Rhagologidae,Rhagologus,leucostigma,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12962071,Passeriformes,Rhipiduridae,Rhipidura,albolimbata,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12962072,Passeriformes,Acanthizidae,Crateroscelis,nigrorufa,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12962073,Passeriformes,Acanthizidae,Crateroscelis,nigrorufa,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12962074,Passeriformes,Acanthizidae,Crateroscelis,nigrorufa,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12962076,Passeriformes,Rhipiduridae,Rhipidura,atra,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12962077,Passeriformes,Petroicidae,Peneothello,cyanus,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12962078,Passeriformes,Petroicidae,Microeca,papuana,Cloacal swabs,5.76250000 S 145.19833333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.7625,145.1983333
+SRR12962079,Passeriformes,Meliphagidae,Myzomela,rosenbergii,Cloacal swabs,5.75944444 S 145.18027778 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.75944444,145.1802778
+SRR12962080,Passeriformes,Meliphagidae,Melidectes,rufocrissalis,Cloacal swabs,5.75944444 S 145.18027778 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.75944444,145.1802778
+SRR12962081,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.75944444 S 145.18027778 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.75944444,145.1802778
+SRR12962082,Passeriformes,Acanthizidae,Sericornis,perspicillatus,Cloacal swabs,5.75944444 S 145.18027778 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.75944444,145.1802778
+SRR12962083,Passeriformes,Rhipiduridae,Rhipidura,albolimbata,Cloacal swabs,5.75944444 S 145.18027778 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.75944444,145.1802778
+SRR12962664,Passeriformes,Meliphagidae,Melidectes,rufocrissalis,Cloacal swabs,5.75944444 S 145.18027778 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.75944444,145.1802778
+SRR12962665,Passeriformes,Acanthizidae,Sericornis,nouhuysi,Cloacal swabs,5.75944444 S 145.18027778 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.75944444,145.1802778
+SRR12962666,Passeriformes,Pachycephalidae,Melanorectes,nigrescens,Cloacal swabs,5.75944444 S 145.18027778 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.75944444,145.1802778
+SRR12962667,Passeriformes,Pachycephalidae,Colluricincla,megarhyncha,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962669,Passeriformes,Meliphagidae,Melipotes,fumigatus,Cloacal swabs,5.75944444 S 145.18027778 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.75944444,145.1802778
+SRR12962670,Passeriformes,Meliphagidae,Melidectes,rufocrissalis,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962671,Passeriformes,Meliphagidae,Melidectes,rufocrissalis,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962672,Passeriformes,Meliphagidae,Melipotes,fumigatus,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962673,Passeriformes,Pachycephalidae,Pachycephala,schlegelii,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962674,Passeriformes,Pachycephalidae,Pachycephala,schlegelii,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962675,Passeriformes,Ifritidae,Ifrita,kowaldi,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962676,Passeriformes,Ifritidae,Ifrita,kowaldi,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962677,Passeriformes,Pachycephalidae,Paramythia,montium,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962678,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962679,Passeriformes,#N/A,BMelipotes,fumigatus,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962680,Passeriformes,#N/A,BMelipotes,fumigatus,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962681,Passeriformes,Ifritidae,Ifrita,kowaldi,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962682,Passeriformes,Meliphagidae,Melidectes,rufocrissalis,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962683,Passeriformes,Meliphagidae,Melipotes,fumigatus,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962684,Passeriformes,Meliphagidae,Melipotes,fumigatus,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962685,Passeriformes,Meliphagidae,Melipotes,fumigatus,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962686,Passeriformes,Petroicidae,Heteromyias,armiti,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962687,Passeriformes,Pachycephalidae,Melanorectes,nigrescens,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962688,Passeriformes,Estrildidae,Erythrura,trichroa,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962689,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962690,Passeriformes,Pachycephalidae,Colluricincla,megarhyncha,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962691,Passeriformes,Meliphagidae,Meliphaga,analoga,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962692,Passeriformes,Meliphagidae,Meliphaga,analoga,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962693,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962694,Passeriformes,Acanthizidae,Sericornis,nouhuysi,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962695,Passeriformes,Pachycephalidae,Pachycephala,schlegelii,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962696,Passeriformes,#N/A,Paramythia,montium,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962697,Passeriformes,#N/A,Paramythia,montium,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962698,Passeriformes,Petroicidae,Heteromyias,armiti,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962699,Passeriformes,Petroicidae,Heteromyias,armiti,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962700,Passeriformes,Petroicidae,Heteromyias,armiti,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962701,Passeriformes,Pachycephalidae,Pachycephala,schlegelii,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962702,Passeriformes,Petroicidae,Microeca,papuana,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962704,Passeriformes,Meliphagidae,Meliphaga,analoga,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962705,Passeriformes,Meliphagidae,Ptiloprora,guisei,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962706,Passeriformes,Rhipiduridae,Rhipidura,atra,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962707,Passeriformes,Rhipiduridae,Rhipidura,atra,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962708,Passeriformes,Petroicidae,Heteromyias,armiti,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962709,Passeriformes,Rhipiduridae,Rhipidura,albolimbata,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962710,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962711,Passeriformes,Meliphagidae,Ptiloprora,guisei,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962712,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962714,Passeriformes,Oriolidae,Pitohui,kirhocephalus,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962715,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962716,Passeriformes,Oriolidae,Pitohui,kirhocephalus,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962717,Passeriformes,Oriolidae,Pitohui,kirhocephalus,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962718,Passeriformes,Sturnidae,Aplonis,metallica,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962720,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962721,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962722,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962724,Passeriformes,#N/A,Meliphaaruensis,,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962725,Passeriformes,Sturnidae,Aplonis,metallica,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962726,Passeriformes,Monarchidae,Arses,insularis,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962727,Passeriformes,Sturnidae,Aplonis,metallica,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962728,Passeriformes,Sturnidae,Aplonis,metallica,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962729,Passeriformes,Sturnidae,Aplonis,metallica,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962730,Passeriformes,Sturnidae,Aplonis,metallica,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962731,Passeriformes,Sturnidae,Aplonis,metallica,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962732,Passeriformes,Meliphagidae,Meliphaga,analoga,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962733,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962734,Passeriformes,#N/A,Symposiachrus,guttula,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962735,Passeriformes,Meliphagidae,Meliphaga,analoga,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962736,Passeriformes,Pachycephalidae,Colluricincla,megarhyncha,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962737,Passeriformes,#N/A,Symposiachrus,guttula,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962738,Passeriformes,Meliphagidae,Meliphaga,analoga,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962740,Passeriformes,#N/A,Symposiachrus,guttula,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962741,Passeriformes,Meliphagidae,Meliphaga,aruensis,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962742,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962743,Passeriformes,Monarchidae,Arses,insularis,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962745,Passeriformes,Oriolidae,Pitohui,dichrous,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962746,Passeriformes,Pachycephalidae,Colluricincla,megarhyncha,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962747,Passeriformes,#N/A,Meliphaaruensis,,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962748,Passeriformes,Melanocharitidae,Toxorhamphus,novaeguineae,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962749,Passeriformes,#N/A,Meliphaanaloga,,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962750,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962752,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962753,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962754,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962755,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Cloacal swabs,5.21805556 S 145.06916667 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.21805556,145.0691667
+SRR12962759,Passeriformes,#N/A,Symposiarchus,insularis,Regurgitated sample,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.7630556
+SRR12962762,Passeriformes,#N/A,Lorius,lory,Regurgitated sample,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.7630556
+SRR12962763,Passeriformes,#N/A,Ceyx,solitarius,Regurgitated sample,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.7630556
+SRR12962764,Passeriformes,Rhipiduridae,Chaetorhynchus,papuensis,Regurgitated sample,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.7630556
+SRR12962765,Passeriformes,#N/A,Ptilinopus,magnificus,Regurgitated sample,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.7630556
+SRR12962766,Passeriformes,Sturnidae,Aplonis,cantoroides,Regurgitated sample,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.7630556
+SRR12962767,Passeriformes,Sturnidae,Aplonis,cantoroides,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.7630556
+SRR12962768,Passeriformes,#N/A,Ceyx,solitarius,Regurgitated sample,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.7630556
+SRR12962769,Passeriformes,#N/A,Ptilinopus,magnificus,Regurgitated sample,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.7630556
+SRR12962770,Passeriformes,#N/A,Ceyx,solitarius,Regurgitated sample,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.7630556
+SRR12962771,Passeriformes,#N/A,Ptilinopus,pulchellus,Regurgitated sample,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.7630556
+SRR12962773,Passeriformes,Meliphagidae,Melilestes,megarhynchus,Regurgitated sample,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.7630556
+SRR12962774,Passeriformes,#N/A,Symposiarchus,insularis,Regurgitated sample,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.7630556
+SRR12962775,Passeriformes,#N/A,Ptilinopus,pulchellus,Regurgitated sample,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.7630556
+SRR12962777,Passeriformes,#N/A,Symposiarchus,guttula,Regurgitated sample,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.7630556
+SRR12962778,Passeriformes,Sturnidae,Aplonis,cantoroides,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.7630556
+SRR12962779,Passeriformes,#N/A,Micropsitta,pusio,Regurgitated sample,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.7630556
+SRR12962780,Passeriformes,#N/A,Symposiarchus,insularis,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.7630556
+SRR12962782,Passeriformes,Rhipiduridae,Rhipidura,rufiventris,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.7630556
+SRR12962783,Passeriformes,#N/A,Micropsitta,pusio,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.7630556
+SRR12962784,Passeriformes,#N/A,Micropsitta,pusio,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.7630556
+SRR12962785,Passeriformes,#N/A,Ptilinopus,coronulatus,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.7630556
+SRR12962787,Passeriformes,Meliphagidae,Melilestes,megarhynchus,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.7630556
+SRR12962788,Passeriformes,Sturnidae,Aplonis,cantoroides,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.7630556
+SRR12962789,Passeriformes,Sturnidae,Aplonis,cantoroides,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.7630556
+SRR12962790,Passeriformes,Meliphagidae,Melilestes,megarhynchus,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.7630556
+SRR12962791,Passeriformes,#N/A,Ptilinopus,pulchellus,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.7630556
+SRR12962792,Passeriformes,#N/A,Ceyx,solitarius,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.7630556
+SRR12962794,Passeriformes,Oriolidae,Pitohui,kirhocephalus,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.7630556
+SRR12962795,Passeriformes,#N/A,Lorius,lory,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.7630556
+SRR12962797,Passeriformes,Meliphagidae,Melilestes,megarhynchus,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.7630556
+SRR12962798,Passeriformes,#N/A,Dacelo,gaudichaud,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.7630556
+SRR12962799,Passeriformes,#N/A,Micropsitta,pusio,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.7630556
+SRR12962800,Passeriformes,#N/A,Symposiarchus,guttula,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.7630556
+SRR12962801,Passeriformes,Melanocharitidae,Melanocharis,nigra,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.7630556
+SRR12962802,Passeriformes,#N/A,Chalcophaps,stephani,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.7630556
+SRR12962803,Passeriformes,#N/A,Cyclopsitta,diophthalma,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.7630556
+SRR12962804,Passeriformes,#N/A,Ptilinopus,magnificus,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.7630556
+SRR12962805,Passeriformes,Sturnidae,Aplonis,cantoroides,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.7630556
+SRR12962807,Passeriformes,Pachycephalidae,Pachycephala,simplex,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.7630556
+SRR12962808,Passeriformes,Pachycephalidae,Pachycephala,simplex,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.7630556
+SRR12962809,Columbiformes,Columbidae,Ptilinopus,iozonus,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.7630556
+SRR12962810,Columbiformes,Columbidae,Ptilinopus,magnificus,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.7630556
+SRR12962811,Passeriformes,"	Coraciiformes",Ceyx,solitarius,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.7630556
+SRR12962812,Columbiformes,Columbidae,Ptilinopus,pulchellus,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.7630556
+SRR12962813,Passeriformes,Monarchidae,Symposiarchus,guttula,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.7630556
+SRR12962814,Psittaciformes,Psittaculidae,Micropsitta,pusio,cloaca,5.14416667 S 145.76305556 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-5.14416667,145.7630556
+SRR12962815,Passeriformes,Melanocharitidae,Toxorhamphus,poliopterus,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.9158333
+SRR12962817,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.9158333
+SRR12962818,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.9158333
+SRR12962819,Passeriformes,Petroicidae,Peneothello,cyanus,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.9158333
+SRR12962820,Passeriformes,Rhipiduridae,Rhipidura,atra,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.9158333
+SRR12962821,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.9158333
+SRR12962823,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.9158333
+SRR12962824,Passeriformes,Acanthizidae,Sericornis,nouhuysi,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.9158333
+SRR12962825,Passeriformes,Rhagologidae,Rhagologus,leucostigma,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962826,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.9158333
+SRR12962827,Passeriformes,Petroicidae,Peneothello,cyanus,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.9158333
+SRR12962828,Passeriformes,Melanocharitidae,Melanocharis,striativentris,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.9158333
+SRR12962829,Passeriformes,Petroicidae,Peneothello,cyanus,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.9158333
+SRR12962830,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.9158333
+SRR12962831,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.9158333
+SRR12962832,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.9158333
+SRR12962833,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.9158333
+SRR12962835,Passeriformes,Rhipiduridae,Rhipidura,atra,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.9158333
+SRR12962838,Passeriformes,Meliphagidae,Timeliopsis,fulvigula,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.9158333
+SRR12962839,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.9158333
+SRR12962840,Passeriformes,Melanocharitidae,Toxorhamphus,poliopterus,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.9158333
+SRR12962841,Passeriformes,Melanocharitidae,Melanocharis,striativentris,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.9158333
+SRR12962842,Passeriformes,Melanocharitidae,Toxorhamphus,poliopterus,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.9158333
+SRR12962843,Passeriformes,Rhagologidae,Rhagologus,leucostigma,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.9158333
+SRR12962844,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.9158333
+SRR12962845,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.9158333
+SRR12962847,Passeriformes,Petroicidae,Peneothello,cyanus,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962848,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.9158333
+SRR12962849,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.9158333
+SRR12962850,Passeriformes,Rhipiduridae,Rhipidura,atra,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.9158333
+SRR12962851,Passeriformes,Estrildidae,Erythrura,trichroa,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.9158333
+SRR12962852,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.9158333
+SRR12962853,Passeriformes,Melanocharitidae,Toxorhamphus,poliopterus,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.9158333
+SRR12962854,Passeriformes,Melanocharitidae,Melanocharis,striativentris,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.9158333
+SRR12962855,Passeriformes,Oriolidae,Pitohui,dichrous,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.9158333
+SRR12962856,Passeriformes,Melanocharitidae,Toxorhamphus,poliopterus,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.9158333
+SRR12962857,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962858,Passeriformes,Pachycephalidae,Pachycephala,schlegelii,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962860,Passeriformes,Petroicidae,Microeca,papuana,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962861,Passeriformes,Meliphagidae,Ptiloprora,guisei,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962863,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962864,Passeriformes,Rhagologidae,Rhagologus,leucostigma,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962865,Passeriformes,Rhipiduridae,Rhipidura,atra,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962866,Passeriformes,Acanthizidae,Crateroscelis,robusta,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962867,Passeriformes,Pachycephalidae,Pachycephala,schlegelii,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962868,Passeriformes,Rhipiduridae,Rhipidura,albolimbata,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962869,Passeriformes,Rhagologidae,Rhagologus,leucostigma,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962870,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962871,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962872,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962873,Passeriformes,Acanthizidae,Sericornis,papuensis,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962874,Passeriformes,Acanthizidae,Sericornis,nouhuysi,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962875,Passeriformes,Petroicidae,Peneothello,cyanus,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.9158333
+SRR12962876,Passeriformes,Acanthizidae,Crateroscelis,robusta,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962877,Passeriformes,Acanthizidae,Sericornis,papuensis,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962878,Passeriformes,Acanthizidae,Crateroscelis,robusta,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962879,Passeriformes,Acanthizidae,Crateroscelis,robusta,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962880,Passeriformes,Acanthizidae,Crateroscelis,robusta,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962881,Passeriformes,Acanthizidae,Crateroscelis,robusta,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962884,Passeriformes,Acanthizidae,Sericornis,nouhuysi,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962886,Passeriformes,Acanthizidae,Sericornis,nouhuysi,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962887,Passeriformes,Petroicidae,Microeca,papuana,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962888,Passeriformes,Meliphagidae,Ptiloprora,guisei,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962889,Passeriformes,Meliphagidae,Ptiloprora,guisei,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962890,Passeriformes,Meliphagidae,Ptiloprora,guisei,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962891,Passeriformes,Meliphagidae,Ptiloprora,guisei,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962892,Passeriformes,Petroicidae,Heteromyias,armiti,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962893,Passeriformes,Acanthizidae,Sericornis,papuensis,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962894,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962896,Passeriformes,Melanocharitidae,Melanocharis,striativentris,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.9158333
+SRR12962898,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962900,Passeriformes,Meliphagidae,Ptiloprora,guisei,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962901,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962902,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962903,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962904,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.9158333
+SRR12962906,Passeriformes,Meliphagidae,Ptiloprora,guisei,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962907,Passeriformes,Petroicidae,Microeca,papuana,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962908,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962909,Passeriformes,Meliphagidae,Ptiloprora,guisei,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962910,Passeriformes,Meliphagidae,Ptiloprora,guisei,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962911,Passeriformes,Meliphagidae,Ptiloprora,guisei,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962912,Passeriformes,Pachycephalidae,Pachycephala,schlegelii,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962913,Passeriformes,Acanthizidae,Sericornis,papuensis,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962914,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962915,Passeriformes,Pachycephalidae,Pachycephala,schlegelii,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962916,Passeriformes,Rhipiduridae,Rhipidura,albolimbata,Cloacal swabs,6.0952755 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.0952755,146.9158333
+SRR12962917,Passeriformes,Acanthizidae,Sericornis,nouhuysi,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.9158333
+SRR12962918,Passeriformes,Melanocharitidae,Melanocharis,versteri,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.9158333
+SRR12962919,Passeriformes,Melanocharitidae,Melanocharis,striativentris,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.9158333
+SRR12962920,Passeriformes,Melanocharitidae,Toxorhamphus,poliopterus,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.9158333
+SRR12962921,Passeriformes,Petroicidae,Peneothello,cyanus,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.9158333
+SRR12962922,Passeriformes,Acanthizidae,Sericornis,nouhuysi,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.9158333
+SRR12962923,Passeriformes,Melanocharitidae,Melanocharis,striativentris,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.9158333
+SRR12962925,Passeriformes,Melanocharitidae,Melanocharis,striativentris,Cloacal swabs,6.09527778 S 146.91583333 E,10.1098/rspb.2021.0446,Papua New Guinea,Bodawatta,-6.09527778,146.9158333
+a401,Columbiformes,Columbidae,Turtur,afer,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a402,Columbiformes,Columbidae,Turtur,tympanistra,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a403,Cuculiformes,Cuculidae,Cercococcyx,olivinus,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a404,Apodiformes,Apodidae,Apus,affinis,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a405,Charadriiformes,Scolopacidae,Actitis,hypoleucos,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a408,Coraciiformes,Alcedinidae,Alcedo,quadribrachys,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a409a,Coraciiformes,Alcedinidae,Corythornis (Alcedo),leucogaster,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a409b,Coraciiformes,Alcedinidae,Corythornis (Alcedo),leucogaster,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a410a,Piciformes,Indicatoridae,Indicator,maculatus,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a410b,Piciformes,Indicatoridae,Indicator,maculatus,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a411,Piciformes,Lybiidae,Pogoniulus,bilineatus,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a412a,Piciformes,Picidae,Campethera,nivosa,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a412bS2,Piciformes,Picidae,Campethera,nivosa,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a412cS2,Piciformes,Picidae,Campethera,nivosa,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a412d,Piciformes,Picidae,Campethera,nivosa,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a413a,Piciformes,Picidae,Campethera,nivosa,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a413b,Piciformes,Picidae,Campethera,nivosa,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a414x,Passeriformes,Cettiidae,Hylia,prasina,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a414y,Passeriformes,Cettiidae,Hylia,prasina,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a417a,Passeriformes,Cettiidae,Hylia,prasina,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a417b,Passeriformes,Cettiidae,Hylia,prasina,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a418a,Passeriformes,Cettiidae,Hylia,prasina,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a418b,Passeriformes,Cettiidae,Hylia,prasina,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a419,Passeriformes,Cisticolidae,Bathmocercus,rufus,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a423,Passeriformes,Cisticolidae,Camaroptera,brachyura,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a427,Passeriformes,Cisticolidae,Camaroptera,chloronota,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a430,Passeriformes,Cisticolidae,Camaroptera,chloronota,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a432,Passeriformes,Cisticolidae,Poliolais,lopezi,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a435a,Passeriformes,Cisticolidae,Prinia,bairdii,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a435b,Passeriformes,Cisticolidae,Prinia,bairdii,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a438a,Passeriformes,Estrildidae,Cryptospiza,reichenovii,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a438b,Passeriformes,Estrildidae,Cryptospiza,reichenovii,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a438c,Passeriformes,Estrildidae,Cryptospiza,reichenovii,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a439a,Passeriformes,Estrildidae,Estrilda,astrild,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a439b,Passeriformes,Estrildidae,Estrilda,astrild,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a440,Passeriformes,Estrildidae,Estrilda,atricapilla,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a443,Passeriformes,Estrildidae,Estrilda,atricapilla,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a444,Passeriformes,Estrildidae,Estrilda,atricapilla,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a445a,Passeriformes,Nectariniidae,Cyanomitra (Nectarinia),olivacea,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a445b,Passeriformes,Nectariniidae,Cyanomitra (Nectarinia),olivacea,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a448a,Passeriformes,Estrildidae,Nigrita,canicapillus,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a448b,Passeriformes,Estrildidae,Nigrita,canicapillus,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a448c,Passeriformes,Estrildidae,Nigrita,canicapillus,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a453,Passeriformes,Estrildidae,Spermestes (Lonchura),bicolor,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a454a,Passeriformes,Estrildidae,Spermestes (Lonchura),cucullata,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a454b,Passeriformes,Estrildidae,Spermestes (Lonchura),cucullata,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a456,Passeriformes,Estrildidae,Spermophaga,haematina,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a457,Passeriformes,Eurylaimidae,Smithornis,rufolateralis,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a458a,Passeriformes,Fringillidae,Linurgus,olivaceus,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a458b,Passeriformes,Fringillidae,Linurgus,olivaceus,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a459,Passeriformes,Hirundinidae,Cecropis (Hirundo),abyssinica,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a461a,Passeriformes,Hirundinidae,Hirundo,aethiopica,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a461b,Passeriformes,Hirundinidae,Hirundo,aethiopica,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a468,Passeriformes,Hirundinidae,Hirundo,nigrita,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a469y,Passeriformes,Hirundinidae,Psalidoprocne,fuliginosa,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a470a,Passeriformes,Hirundinidae,Psalidoprocne,nitens,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a470b,Passeriformes,Hirundinidae,Psalidoprocne,nitens,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a472a,Passeriformes,Macrosphenidae,Sylvietta,virens,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a472b,Passeriformes,Macrosphenidae,Sylvietta,virens,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a474,Passeriformes,Malaconotidae,Tchagra,australis,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a475x,Passeriformes,Monarchidae,Terpsiphone,rufiventer,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a475y,Passeriformes,Monarchidae,Terpsiphone,rufiventer,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a476,Passeriformes,Monarchidae,Terpsiphone,viridis,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a481a,Passeriformes,Monarchidae,Terpsiphone,viridis,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a481b,Passeriformes,Monarchidae,Terpsiphone,viridis,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a485,Passeriformes,Muscicapidae,Alethe,castanea (diademata),intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a492a,Passeriformes,Muscicapidae,Chamaetylas (Alethe),poliocephala,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a492b,Passeriformes,Muscicapidae,Chamaetylas (Alethe),poliocephala,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a501ax,Passeriformes,Muscicapidae,Chamaetylas (Alethe),poliocephala,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a501ay,Passeriformes,Muscicapidae,Chamaetylas (Alethe),poliocephala,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a501bx,Passeriformes,Muscicapidae,Chamaetylas (Alethe),poliocephala,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a501by,Passeriformes,Muscicapidae,Chamaetylas (Alethe),poliocephala,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a501cx,Passeriformes,Muscicapidae,Chamaetylas (Alethe),poliocephala,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a501cy,Passeriformes,Muscicapidae,Chamaetylas (Alethe),poliocephala,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a502b,Passeriformes,Muscicapidae,Cossyphicula,roberti,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a502c,Passeriformes,Muscicapidae,Cossyphicula,roberti,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a502d,Passeriformes,Muscicapidae,Cossyphicula,roberti,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a505,Passeriformes,Muscicapidae,Muscicapa,infuscata,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a510,Passeriformes,Muscicapidae,Muscicapa,sethsmithi,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a513,Passeriformes,Muscicapidae,Sheppardia,bocagei,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a517a,Passeriformes,Muscicapidae,Sheppardia,cyornithopsis,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a517b,Passeriformes,Muscicapidae,Sheppardia,cyornithopsis,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a523,Passeriformes,Muscicapidae,Stiphrornis,erythrothorax,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a524S2,Passeriformes,Muscicapidae,Stiphrornis,erythrothorax,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a527,Passeriformes,Nectariniidae,Hedydipna (Anthodiaeta),collaris,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a530,Passeriformes,Nectariniidae,Anthreptes (Nectarinia),seimundi,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a531a,Passeriformes,Nectariniidae,Cinnyris (Nectarinia),batesi,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a531b,Passeriformes,Nectariniidae,Cinnyris (Nectarinia),batesi,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a533,Passeriformes,Nectariniidae,Cinnyris (Nectarinia),reichenowi,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a534a,Passeriformes,Nectariniidae,Cyanomitra (Nectarinia),olivacea,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a535a,Passeriformes,Nectariniidae,Cyanomitra (Nectarinia),olivacea,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a535b,Passeriformes,Nectariniidae,Cyanomitra (Nectarinia),olivacea,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a536a,Passeriformes,Nectariniidae,Cyanomitra (Nectarinia),oritis,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a536b,Passeriformes,Nectariniidae,Cyanomitra (Nectarinia),oritis,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a537,Passeriformes,Nicatoridae,Nicator,chloris,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a539,Passeriformes,Pellorneidae,Illadopsis,fulvescens,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a544,Passeriformes,Phylloscopidae,Phylloscopus,herberti,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a545,Passeriformes,Platysteiridae,Platysteira,castanea,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a548,Passeriformes,Platysteiridae,Platysteira,castanea,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a554,Passeriformes,Platysteiridae,Platysteira,chalybea,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a557,Passeriformes,Ploceidae,Ploceus,albinucha,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a561b,Passeriformes,Ploceidae,Ploceus,nigricollis,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a564,Passeriformes,Pycnonotidae,Arizelocichla (Andropadus),tephrolaema (-us),intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a568cx,Passeriformes,Pycnonotidae,Bleda,notatus,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a568cy,Passeriformes,Pycnonotidae,Bleda,notatus,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a574x,Passeriformes,Pycnonotidae,Bleda,notatus,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a574y,Passeriformes,Pycnonotidae,Bleda,notatus,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a578,Passeriformes,Pycnonotidae,Criniger,calurus,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a580,Passeriformes,Pycnonotidae,Criniger,chloronotus,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a584,Passeriformes,Pycnonotidae,Criniger,ndussumensis,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a591,Passeriformes,Pycnonotidae,Eurillas (Andropadus),latirostris,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a599a,Passeriformes,Pycnonotidae,Eurillas (Andropadus),latirostris,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a599b,Passeriformes,Pycnonotidae,Eurillas (Andropadus),latirostris,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a618S2,Passeriformes,Pycnonotidae,Eurillas (Andropadus),virens,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a620a,Passeriformes,Pycnonotidae,Eurillas (Andropadus),virens,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a620b,Passeriformes,Pycnonotidae,Eurillas (Andropadus),virens,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a625,Passeriformes,Pycnonotidae,Phyllastrephus,poensis,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a633a,Passeriformes,Stenostiridae,Elminia,albiventris,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a633b,Passeriformes,Stenostiridae,Elminia,albiventris,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a634a,Passeriformes,Sylviidae,Sylvia (Pseudoalcippe),abyssinica,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a634bS2,Passeriformes,Sylviidae,Sylvia (Pseudoalcippe),abyssinica,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a634d,Passeriformes,Sylviidae,Sylvia (Pseudoalcippe),abyssinica,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a640a,Passeriformes,Turdidae,Neocossyphus,poensis,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a640b,Passeriformes,Turdidae,Neocossyphus,poensis,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a643b,Passeriformes,Turdidae,Neocossyphus,poensis,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a650S2,Passeriformes,Turdidae,Neocossyphus,rufus,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a653a,Passeriformes,Turdidae,Turdus,pelios,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a653b,Passeriformes,Turdidae,Turdus,pelios,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a655a,Passeriformes,Viduidae,Vidua,macroura,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a655b,Passeriformes,Viduidae,Vidua,macroura,intestine,"1.7114501735770198, 10.463714317137084",10.1111/mec.15354,Equatorial Guinea,Hird,1.711450174,10.46371432
+a656,Passeriformes,Zosteropidae,Zosterops (Speirops),brunneus,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
+a658S2,Passeriformes,Zosteropidae,Zosterops,senegalensis,intestine,"3.631729251816621, 8.754424179946257",10.1111/mec.15354,Equatorial Guinea,Hird,3.631729252,8.75442418
 SRR11825482,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,38.03005197 N 122.882655 W,10.1007/s00248-020-01569-8,USA,Berlow,38.03005197,-122.882655
 SRR11825483,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,38.02621599 N 122.876718 W,10.1007/s00248-020-01569-8,USA,Berlow,38.02621599,-122.876718
-SRR11825486,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,not collected,10.1007/s00248-020-01569-8,USA,Berlow,NA,NA
+SRR11825486,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,not collected,10.1007/s00248-020-01569-8,USA,Berlow,NA,A
 SRR11825487,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,38.12058197 N 122.943727 W,10.1007/s00248-020-01569-8,USA,Berlow,38.12058197,-122.943727
 SRR11825488,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,38.12319696 N 122.938746 W,10.1007/s00248-020-01569-8,USA,Berlow,38.12319696,-122.938746
 SRR11825489,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,38.12327298 N 122.955462 W,10.1007/s00248-020-01569-8,USA,Berlow,38.12327298,-122.955462
@@ -500,7 +500,7 @@ SRR11825499,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,38.
 SRR11825500,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,38.02654297 N 122.883605 W,10.1007/s00248-020-01569-8,USA,Berlow,38.02654297,-122.883605
 SRR11825502,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,38.02704203 N 122.887843 W,10.1007/s00248-020-01569-8,USA,Berlow,38.02704203,-122.887843
 SRR11825503,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,38.02961896 N 122.881688 W,10.1007/s00248-020-01569-8,USA,Berlow,38.02961896,-122.881688
-SRR11825504,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,not collected,10.1007/s00248-020-01569-8,USA,Berlow,NA,NA
+SRR11825504,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,not collected,10.1007/s00248-020-01569-8,USA,Berlow,NA,A
 SRR11825505,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,38.02881204 N 122.882687 W,10.1007/s00248-020-01569-8,USA,Berlow,38.02881204,-122.882687
 SRR11825506,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,37.90313202 N 122.723352 W,10.1007/s00248-020-01569-8,USA,Berlow,37.90313202,-122.723352
 SRR11825507,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,37.787964 N 122.478038 W,10.1007/s00248-020-01569-8,USA,Berlow,37.787964,-122.478038
@@ -515,7 +515,7 @@ SRR11825516,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,37.
 SRR11825517,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,37.91071898 N 122.334197 W,10.1007/s00248-020-01569-8,USA,Berlow,37.91071898,-122.334197
 SRR11825518,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,37.79602 N 122.48157 W,10.1007/s00248-020-01569-8,USA,Berlow,37.79602,-122.48157
 SRR11825519,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,37.90993896 N 122.333272 W,10.1007/s00248-020-01569-8,USA,Berlow,37.90993896,-122.333272
-SRR11825521,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,not collected,10.1007/s00248-020-01569-8,USA,Berlow,NA,NA
+SRR11825521,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,not collected,10.1007/s00248-020-01569-8,USA,Berlow,NA,A
 SRR11825522,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,37.72455297 N 122.503666 W,10.1007/s00248-020-01569-8,USA,Berlow,37.72455297,-122.503666
 SRR11825523,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,37.72393799 N 122.50333 W,10.1007/s00248-020-01569-8,USA,Berlow,37.72393799,-122.50333
 SRR11825524,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,37.71812799 N 122.501195 W,10.1007/s00248-020-01569-8,USA,Berlow,37.71812799,-122.501195
@@ -524,7 +524,7 @@ SRR11825526,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,37.
 SRR11825527,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,37.71460298 N 122.500617 W,10.1007/s00248-020-01569-8,USA,Berlow,37.71460298,-122.500617
 SRR11825529,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,37.78605 N 122.48145 W,10.1007/s00248-020-01569-8,USA,Berlow,37.78605,-122.48145
 SRR11825530,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,37.90990502 N 122.338717 W,10.1007/s00248-020-01569-8,USA,Berlow,37.90990502,-122.338717
-SRR11825531,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,not collected,10.1007/s00248-020-01569-8,USA,Berlow,NA,NA
+SRR11825531,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,not collected,10.1007/s00248-020-01569-8,USA,Berlow,NA,A
 SRR11825532,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,37.91025898 N 122.338999 W,10.1007/s00248-020-01569-8,USA,Berlow,37.91025898,-122.338999
 SRR11825533,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,37.90954703 N 122.339247 W,10.1007/s00248-020-01569-8,USA,Berlow,37.90954703,-122.339247
 SRR11825534,Passeriformes,Passerellidae,Zonotrichia,leucophrys,Cloacal swabs,37.90926103 N 122.339971 W,10.1007/s00248-020-01569-8,USA,Berlow,37.90926103,-122.339971
@@ -705,40 +705,40 @@ SRR6486668,Passeriformes,Thraupidae,Geospiza,Difficilis,Feces,"-0.6,-90.5",10.11
 SRR6486667,Passeriformes,Thraupidae,Geospiza,Difficilis,Feces,"-0.6,-90.5",10.1186/s40168-018-0555-8,Ecuador,CoMiDa,-0.6,-90.5
 SRR6486666,Passeriformes,Thraupidae,Geospiza,Fuliginosa,Feces,"-0.6,-90.5",10.1186/s40168-018-0555-8,Ecuador,CoMiDa,-0.6,-90.5
 SRR6486665,Passeriformes,Thraupidae,Geospiza,Fuliginosa,Feces,"-0.6,-90.5",10.1186/s40168-018-0555-8,Ecuador,CoMiDa,-0.6,-90.5
-SRR3666744,Passeriformes,Hirundinidae,,,Feces,40.789503 N 96.663323 W,10.1128/AEM.00896-18,USA,CoMiDa,40.789503,N96.663323
-SRR3666728,,,,,Feces,40.779223 N 96.75353 W,10.1128/AEM.00896-18,USA,CoMiDa,40.779223,N96.75353
-SRR3655630,Passeriformes,Hirundinidae,,,Feces,40.789503 N 96.663323 W,10.1128/AEM.00896-18,USA,CoMiDa,40.789503,N96.663323
-SRR3655629,Columbiformes,Columbidae,,,Feces,40.802089 N 96.681604 W,10.1128/AEM.00896-18,USA,CoMiDa,40.802089,N96.681604
-SRR3655621,Anseriformes,Anatidae,,,Feces,40.783025 N 96.636345 W,10.1128/AEM.00896-18,USA,CoMiDa,40.783025,N96.636345
-SRR3655620,,,,,Feces,40.783025 N 96.636345 W,10.1128/AEM.00896-18,USA,CoMiDa,40.783025,N96.636345
-SRR3655619,Anseriformes,Anatidae,,,Feces,40.783025 N 96.636345 W,10.1128/AEM.00896-18,USA,CoMiDa,40.783025,N96.636345
-SRR3655618,Passeriformes,Hirundinidae,,,Feces,40.789503 N 96.663323 W,10.1128/AEM.00896-18,USA,CoMiDa,40.789503,N96.663323
-SRR3655616,Columbiformes,Columbidae,,,Feces,40.802089 N 96.681604 W,10.1128/AEM.00896-18,USA,CoMiDa,40.802089,N96.681604
-SRR3655614,Passeriformes,Hirundinidae,,,Feces,40.789503 N 96.663323 W,10.1128/AEM.00896-18,USA,CoMiDa,40.789503,N96.663323
-SRR3655613,Passeriformes,Hirundinidae,,,Feces,40.789503 N 96.663323 W,10.1128/AEM.00896-18,USA,CoMiDa,40.789503,N96.663323
-SRR3655612,Passeriformes,Hirundinidae,,,Feces,40.789503 N 96.663323 W,10.1128/AEM.00896-18,USA,CoMiDa,40.789503,N96.663323
-SRR3655611,Columbiformes,Columbidae,,,Feces,40.802089 N 96.681604 W,10.1128/AEM.00896-18,USA,CoMiDa,40.802089,N96.681604
-SRR3655610,Anseriformes,Anatidae,,,Feces,40.806119 N 96.686064 W,10.1128/AEM.00896-18,USA,CoMiDa,40.806119,N96.686064
-SRR3655609,Anseriformes,Anatidae,,,Feces,40.806119 N 96.686064 W,10.1128/AEM.00896-18,USA,CoMiDa,40.806119,N96.686064
-SRR3655608,Anseriformes,Anatidae,,,Feces,40.868076 N 96.697769 W,10.1128/AEM.00896-18,USA,CoMiDa,40.868076,N96.697769
-SRR3655607,Anseriformes,Anatidae,,,Feces,40.868076 N 96.697769 W,10.1128/AEM.00896-18,USA,CoMiDa,40.868076,N96.697769
-SRR3655606,Anseriformes,Anatidae,,,Feces,40.778971 N 96.753509 W,10.1128/AEM.00896-18,USA,CoMiDa,40.778971,N96.753509
-SRR3655605,Anseriformes,Anatidae,,,Feces,40.778971 N 96.753509 W,10.1128/AEM.00896-18,USA,CoMiDa,40.778971,N96.753509
-SRR3655583,Anseriformes,Anatidae,,,Feces,40.778971 N 96.753509 W,10.1128/AEM.00896-18,USA,CoMiDa,40.778971,N96.753509
-SRR3655581,Anseriformes,Anatidae,,,Feces,40.780482 N 96.63328 W,10.1128/AEM.00896-18,USA,CoMiDa,40.780482,N96.63328
-SRR3609206,Anseriformes,Anatidae,,,Feces,40.801282 N 96.679145 W,10.1128/AEM.00896-18,USA,CoMiDa,40.801282,N96.679145
-SRR3609198,Passeriformes,Hirundinidae,,,Feces,40.801282 N 96.679145 W,10.1128/AEM.00896-18,USA,CoMiDa,40.801282,N96.679145
-SRR3609191,Columbiformes,Columbidae,,,Feces,40.805642 N 96.685667 W,10.1128/AEM.00896-18,USA,CoMiDa,40.805642,N96.685667
-SRR3609190,Anseriformes,Anatidae,,,Feces,40.80712 N 96.686536 W,10.1128/AEM.00896-18,USA,CoMiDa,40.80712,N96.686536
-SRR3609178,Anseriformes,Anatidae,,,Feces,40.80712 N 96.686536 W,10.1128/AEM.00896-18,USA,CoMiDa,40.80712,N96.686536
-SRR3609175,Anseriformes,Anatidae,,,Feces,40.809232 N 96.686964 W,10.1128/AEM.00896-18,USA,CoMiDa,40.809232,N96.686964
-SRR3609170,Anseriformes,Anatidae,,,Feces,40.790697 N 96.665592 W,10.1128/AEM.00896-18,USA,CoMiDa,40.790697,N96.665592
-SRR3609163,Passeriformes,Hirundinidae,,,Feces,40.790697 N 96.665592 W,10.1128/AEM.00896-18,USA,CoMiDa,40.790697,N96.665592
-SRR3609162,Passeriformes,Hirundinidae,,,Feces,40.790697 N 96.665592 W,10.1128/AEM.00896-18,USA,CoMiDa,40.790697,N96.665592
-SRR3609158,Anseriformes,Anatidae,,,Feces,40.793414 N 96.669452 W,10.1128/AEM.00896-18,USA,CoMiDa,40.793414,N96.669452
-SRR3609156,Anseriformes,Anatidae,,,Feces,40.793414 N 96.669452 W,10.1128/AEM.00896-18,USA,CoMiDa,40.793414,N96.669452
-SRR3609149,Anseriformes,Anatidae,,,Feces,40.798077 N 96.674433 W,10.1128/AEM.00896-18,USA,CoMiDa,40.798077,N96.674433
-SRR3609140,,,,,Feces,40.798077 N 96.674433 W,10.1128/AEM.00896-18,USA,CoMiDa,40.798077,N96.674433
+SRR3666744,Passeriformes,Hirundinidae,,,Feces,40.789503 N 96.663323 W,10.1128/AEM.00896-18,USA,CoMiDa,40.789503,96.663323
+SRR3666728,,,,,Feces,40.779223 N 96.75353 W,10.1128/AEM.00896-18,USA,CoMiDa,40.779223,96.75353
+SRR3655630,Passeriformes,Hirundinidae,,,Feces,40.789503 N 96.663323 W,10.1128/AEM.00896-18,USA,CoMiDa,40.789503,96.663323
+SRR3655629,Columbiformes,Columbidae,,,Feces,40.802089 N 96.681604 W,10.1128/AEM.00896-18,USA,CoMiDa,40.802089,96.681604
+SRR3655621,Anseriformes,Anatidae,,,Feces,40.783025 N 96.636345 W,10.1128/AEM.00896-18,USA,CoMiDa,40.783025,96.636345
+SRR3655620,,,,,Feces,40.783025 N 96.636345 W,10.1128/AEM.00896-18,USA,CoMiDa,40.783025,96.636345
+SRR3655619,Anseriformes,Anatidae,,,Feces,40.783025 N 96.636345 W,10.1128/AEM.00896-18,USA,CoMiDa,40.783025,96.636345
+SRR3655618,Passeriformes,Hirundinidae,,,Feces,40.789503 N 96.663323 W,10.1128/AEM.00896-18,USA,CoMiDa,40.789503,96.663323
+SRR3655616,Columbiformes,Columbidae,,,Feces,40.802089 N 96.681604 W,10.1128/AEM.00896-18,USA,CoMiDa,40.802089,96.681604
+SRR3655614,Passeriformes,Hirundinidae,,,Feces,40.789503 N 96.663323 W,10.1128/AEM.00896-18,USA,CoMiDa,40.789503,96.663323
+SRR3655613,Passeriformes,Hirundinidae,,,Feces,40.789503 N 96.663323 W,10.1128/AEM.00896-18,USA,CoMiDa,40.789503,96.663323
+SRR3655612,Passeriformes,Hirundinidae,,,Feces,40.789503 N 96.663323 W,10.1128/AEM.00896-18,USA,CoMiDa,40.789503,96.663323
+SRR3655611,Columbiformes,Columbidae,,,Feces,40.802089 N 96.681604 W,10.1128/AEM.00896-18,USA,CoMiDa,40.802089,96.681604
+SRR3655610,Anseriformes,Anatidae,,,Feces,40.806119 N 96.686064 W,10.1128/AEM.00896-18,USA,CoMiDa,40.806119,96.686064
+SRR3655609,Anseriformes,Anatidae,,,Feces,40.806119 N 96.686064 W,10.1128/AEM.00896-18,USA,CoMiDa,40.806119,96.686064
+SRR3655608,Anseriformes,Anatidae,,,Feces,40.868076 N 96.697769 W,10.1128/AEM.00896-18,USA,CoMiDa,40.868076,96.697769
+SRR3655607,Anseriformes,Anatidae,,,Feces,40.868076 N 96.697769 W,10.1128/AEM.00896-18,USA,CoMiDa,40.868076,96.697769
+SRR3655606,Anseriformes,Anatidae,,,Feces,40.778971 N 96.753509 W,10.1128/AEM.00896-18,USA,CoMiDa,40.778971,96.753509
+SRR3655605,Anseriformes,Anatidae,,,Feces,40.778971 N 96.753509 W,10.1128/AEM.00896-18,USA,CoMiDa,40.778971,96.753509
+SRR3655583,Anseriformes,Anatidae,,,Feces,40.778971 N 96.753509 W,10.1128/AEM.00896-18,USA,CoMiDa,40.778971,96.753509
+SRR3655581,Anseriformes,Anatidae,,,Feces,40.780482 N 96.63328 W,10.1128/AEM.00896-18,USA,CoMiDa,40.780482,96.63328
+SRR3609206,Anseriformes,Anatidae,,,Feces,40.801282 N 96.679145 W,10.1128/AEM.00896-18,USA,CoMiDa,40.801282,96.679145
+SRR3609198,Passeriformes,Hirundinidae,,,Feces,40.801282 N 96.679145 W,10.1128/AEM.00896-18,USA,CoMiDa,40.801282,96.679145
+SRR3609191,Columbiformes,Columbidae,,,Feces,40.805642 N 96.685667 W,10.1128/AEM.00896-18,USA,CoMiDa,40.805642,96.685667
+SRR3609190,Anseriformes,Anatidae,,,Feces,40.80712 N 96.686536 W,10.1128/AEM.00896-18,USA,CoMiDa,40.80712,96.686536
+SRR3609178,Anseriformes,Anatidae,,,Feces,40.80712 N 96.686536 W,10.1128/AEM.00896-18,USA,CoMiDa,40.80712,96.686536
+SRR3609175,Anseriformes,Anatidae,,,Feces,40.809232 N 96.686964 W,10.1128/AEM.00896-18,USA,CoMiDa,40.809232,96.686964
+SRR3609170,Anseriformes,Anatidae,,,Feces,40.790697 N 96.665592 W,10.1128/AEM.00896-18,USA,CoMiDa,40.790697,96.665592
+SRR3609163,Passeriformes,Hirundinidae,,,Feces,40.790697 N 96.665592 W,10.1128/AEM.00896-18,USA,CoMiDa,40.790697,96.665592
+SRR3609162,Passeriformes,Hirundinidae,,,Feces,40.790697 N 96.665592 W,10.1128/AEM.00896-18,USA,CoMiDa,40.790697,96.665592
+SRR3609158,Anseriformes,Anatidae,,,Feces,40.793414 N 96.669452 W,10.1128/AEM.00896-18,USA,CoMiDa,40.793414,96.669452
+SRR3609156,Anseriformes,Anatidae,,,Feces,40.793414 N 96.669452 W,10.1128/AEM.00896-18,USA,CoMiDa,40.793414,96.669452
+SRR3609149,Anseriformes,Anatidae,,,Feces,40.798077 N 96.674433 W,10.1128/AEM.00896-18,USA,CoMiDa,40.798077,96.674433
+SRR3609140,,,,,Feces,40.798077 N 96.674433 W,10.1128/AEM.00896-18,USA,CoMiDa,40.798077,96.674433
 ERR1523245,Anseriformes,Anatidae,Anser,Anser_sp.,feces,"-37.673563,145.89612",10.1186/s13071-016-1607-1,Australia,EMP,-37.673563,145.89612
 ERR1523244,Anseriformes,Anatidae,Anser,Anser_sp.,feces,"-37.673563,145.89612",10.1186/s13071-016-1607-1,Australia,EMP,-37.673563,145.89612
 ERR1523243,Anseriformes,Anatidae,Anser,Anser_sp.,feces,"-37.673563,145.89612",10.1186/s13071-016-1607-1,Australia,EMP,-37.673563,145.89612
