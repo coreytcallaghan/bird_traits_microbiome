@@ -1,112 +1,526 @@
 # initial EDA
-
 library(dplyr)
 library(ggplot2)
 library(readr)
 library(tidyr)
 library(stringr)
+library(lme4)
+library(ggeffects)
+library(naniar)
+library(performance)
 
 # prepare trait data
-dat <- readr::read_csv("All_Metadata.csv")
+analysis_dat <- readRDS("Clean data/analysis_data.RDS") %>%
+  dplyr::filter(complete.cases(ebird_COMMON_NAME))
 
-# get unique list of species
-species <- dat %>%
-  mutate(Species2=word(Species, 2, sep="_")) %>%
-  mutate(Species3=ifelse(is.na(Species2)==TRUE, Species, Species2)) %>%
-  unite(SCIENTIFIC_NAME, Genus, Species3, sep=" ") %>%
-  dplyr::filter(complete.cases(Species)) %>%
-  dplyr::select(SCIENTIFIC_NAME) %>%
-  distinct() %>%
-  dplyr::filter(SCIENTIFIC_NAME != "Anser sp.")
+length(unique(analysis_dat$ebird_COMMON_NAME))
+nrow(analysis_dat)
+length(unique(analysis_dat$DOI))
 
-clements <- read_csv("clements_clean.csv")
+# trim the data to traits of interest
+# and the variables necessary for analyses
+analysis_dat <- analysis_dat %>%
+  dplyr::select(3, 7, 8, 9, 10, 12, 14, 15, 17, 20:22)
 
-species_list_clements <- species %>%
-  left_join(., clements %>%
-              rename(SCIENTIFIC_NAME=ebird_SCIENTIFIC_NAME))
+vis_miss(analysis_dat %>%
+           dplyr::select(6:12))+
+  coord_flip()+
+  theme_bw()+
+  theme(axis.text=element_text(color="black"))
 
-fixes <- species_list_clements %>%
-  dplyr::filter(is.na(ebird_COMMON_NAME)) %>%
-  mutate(ebird_SCIENTIFIC_NAME=c("Paramythia montium",
-                                 "Melipotes fumigatus",
-                                 "NA",
-                                 "Arses insularis",
-                                 "Symposiachrus guttula",
-                                 "Turtur tympanistria",
-                                 "Corythornis leucogaster",
-                                 "Cyanomitra olivacea",
-                                 "Spermestes bicolor",
-                                 "Spermestes cucullata",
-                                 "Cecropis abyssinica",
-                                 "Alethe castanea",
-                                 "Chamaetylas poliocephala",
-                                 "Bradornis fuliginosus",
-                                 "Hedydipna collaris",
-                                 "Anthreptes seimundi",
-                                 "Cinnyris batesi",
-                                 "Cinnyris reichenowi",
-                                 "Cyanomitra oritis",
-                                 "Arizelocichla tephrolaema",
-                                 "Eurillas latirostris",
-                                 "Eurillas virens",
-                                 "Sylvia abyssinica",
-                                 "Zosterops brunneus",
-                                 "Gallus gallus",
-                                 "Geospiza difficilis",
-                                 "Geospiza fortis",
-                                 "Geospiza fuliginosa",
-                                 "Geospiza scandens",
-                                 "Camarhynchus parvulus",
-                                 "Platyspiza crassirostris",
-                                 "Geospiza conirostris",
-                                 "Certhidea olivacea",
-                                 "Camarhynchus pallidus",
-                                 "Turdus flavipes"))
+analysis_dat %>%
+  group_by(DOI) %>%
+  summarize(number_obs=n(),
+            number_species=length(unique(ebird_COMMON_NAME)))
 
+summarized_dat <- analysis_dat %>%
+  group_by(ebird_COMMON_NAME) %>%
+  summarize(number_studies=length(unique(DOI)))
 
-alpha <- readr::read_csv("AlphaDiversity.csv")
+#############################
+# body mass vs richness
 
-# prepare trait data
-dat <- readr::read_csv("All_Metadata.csv") %>%
-  dplyr::filter(SampleID %in% alpha$SampleID)
+# raw plots first
+body_size_dat <- analysis_dat %>%
+  dplyr::select(1, 3, 4, 6) %>%
+  dplyr::filter(complete.cases(.)) %>%
+  mutate(adult_body_mass_g_log10=log10(adult_body_mass_g)) %>%
+  dplyr::filter(! ebird_COMMON_NAME %in% c("Emu", "Red Junglefowl"))
 
-predictors <- readRDS("bird_trait_predictors.RDS")
+ggplot(body_size_dat, aes(x=adult_body_mass_g, y=Richness))+
+  geom_point()+
+  #scale_x_log10()+
+  #scale_y_log10()+
+  theme_bw()+
+  theme(axis.text=element_text(color="black"))+
+  ylab("Species richness")+
+  xlab("log10 Adult body mass (g)")
 
-
-# get unique list of species
-species <- alpha %>%
-  mutate(Species2=word(Species, 2, sep="_")) %>%
-  mutate(Species3=ifelse(is.na(Species2)==TRUE, Species, Species2)) %>%
-  unite(SCIENTIFIC_NAME, Genus, Species3, sep=" ") %>%
-  dplyr::filter(complete.cases(Species)) %>%
-  dplyr::select(SCIENTIFIC_NAME) %>%
-  distinct() %>%
-  dplyr::filter(SCIENTIFIC_NAME != "Anser sp.")
-
-alpha2 <- species %>%
-  left_join(., fixes) %>%
-  mutate(ebird_SCIENTIFIC_NAME=ifelse(is.na(ebird_SCIENTIFIC_NAME)==TRUE, 
-                                      SCIENTIFIC_NAME, ebird_SCIENTIFIC_NAME)) %>%
-  dplyr::select(SCIENTIFIC_NAME, ebird_SCIENTIFIC_NAME) %>%
-  left_join(., clements, by="ebird_SCIENTIFIC_NAME") %>%
-  rename(database_SCIENTIFIC_NAME=SCIENTIFIC_NAME) %>%
-  left_join(., alpha %>%
-              mutate(Species2=word(Species, 2, sep="_")) %>%
-              mutate(Species3=ifelse(is.na(Species2)==TRUE, Species, Species2)) %>%
-              unite(database_SCIENTIFIC_NAME, Genus, Species3, sep=" "))
-
-analysis_dat <- alpha2 %>%
-  left_join(., predictors)
-
-
-ggplot(analysis_dat, aes(x=adult_body_mass_g, y=Richness))+
+ggplot(body_size_dat, aes(x=adult_body_mass_g, y=Richness))+
   geom_point()+
   scale_x_log10()+
   scale_y_log10()+
   theme_bw()+
   theme(axis.text=element_text(color="black"))+
-  geom_smooth(method="lm")+
-  geom_smooth(method="gam")
+  ylab("Species richness (log10)")+
+  xlab("log10 Adult body mass (g)")
+
+body_size_mod <- lme4::glmer(Richness ~ log10(adult_body_mass_g) + (1|DOI/ebird_COMMON_NAME),
+                            family=poisson(), data=body_size_dat)
+summary(body_size_mod)
+
+body_size_mod <- lme4::glmer(Richness ~ log10(adult_body_mass_g) + (1|DOI) + (1|ebird_COMMON_NAME),
+                             family=poisson(), data=body_size_dat)
+summary(body_size_mod)
+
+body_size_mod <- lme4::glmer(Richness ~ log10(adult_body_mass_g) + (1|DOI),
+                             family=poisson(), data=body_size_dat)
+summary(body_size_mod)
+
+body_size_mod <- lme4::glmer(Richness ~ log10(adult_body_mass_g) + (1|ebird_COMMON_NAME),
+                             family=poisson(), data=body_size_dat)
+summary(body_size_mod)
+
+hist(resid(body_size_mod))
+
+model_performance(body_size_mod)
+
+body_size_prediction <- ggpredict(body_size_mod, terms="adult_body_mass_g")
+
+newdat <- data.frame(adult_body_mass_g=seq(min(body_size_dat$adult_body_mass_g_log10), max(body_size_dat$adult_body_mass_g_log10),
+                                           length.out=100))
+
+predict(body_size_mod, newdat, re.form=NA)
+
+body_size_prediction <- data.frame(adult_body_mass_g_log10=newdat$adult_body_mass_g) %>%
+  mutate(adult_body_mass_g=10^adult_body_mass_g_log10) %>%
+  mutate(predicted_richness=exp(predict(body_size_mod, newdat, re.form=NA)))
+
+ggplot(body_size_prediction, aes(x=adult_body_mass_g, y=predicted_richness)) +
+  geom_line() +
+  #geom_ribbon(aes(ymin = conf.low, ymax = conf.high), alpha = .1)+
+  geom_point(data=body_size_dat, aes(x=adult_body_mass_g, y=Richness))+
+  theme_bw()+
+  theme(axis.text=element_text(color="black"))+
+  ylab("Species richness")+
+  xlab("Adult body mass")+
+  scale_x_log10()
+
+body_size_mod_l <- lme4::lmer(log10(Richness) ~ log10(adult_body_mass_g) + (1|DOI),
+                             data=body_size_dat)
+summary(body_size_mod_l)
+
+body_size_prediction <- ggpredict(body_size_mod_l, terms="adult_body_mass_g")
+
+ggplot(body_size_prediction, aes(x, predicted)) +
+  geom_line() +
+  geom_ribbon(aes(ymin = conf.low, ymax = conf.high), alpha = .1)+
+  scale_x_log10()+
+  geom_point(data=body_size_dat, aes(x=adult_body_mass_g, y=Richness))+
+  theme_bw()+
+  theme(axis.text=element_text(color="black"))+
+  ylab("Species richness")+
+  xlab("Adult body mass")
+
+
+body_size_mod_g <- lme4::glmer(Richness ~ log10(adult_body_mass_g) + (1|ebird_COMMON_NAME),
+                             family=poisson(), data=body_size_dat)
+summary(body_size_mod_g)
+
+model_performance(body_size_mod)
+
+body_size_prediction <- ggpredict(body_size_mod_g, terms="adult_body_mass_g")
+
+ggplot(body_size_prediction, aes(x, predicted)) +
+  geom_line() +
+  geom_ribbon(aes(ymin = conf.low, ymax = conf.high), alpha = .1)+
+  scale_x_log10()+
+  geom_point(data=body_size_dat, aes(x=adult_body_mass_g, y=Richness))+
+  theme_bw()+
+  theme(axis.text=element_text(color="black"))+
+  ylab("Species richness")+
+  xlab("Adult body mass")
+
+body_size_mod <- lme4::glmer(Richness ~ log10(adult_body_mass_g) + (1|ebird_COMMON_NAME),
+                             family=poisson(), data=body_size_dat)
+summary(body_size_mod)
+
+model_performance(body_size_mod)
+
+body_size_prediction <- ggpredict(body_size_mod, terms="adult_body_mass_g")
+
+ggplot(body_size_prediction, aes(x, predicted)) +
+  geom_line() +
+  geom_ribbon(aes(ymin = conf.low, ymax = conf.high), alpha = .1)+
+  geom_point(data=body_size_dat, aes(x=adult_body_mass_g, y=Richness))+
+  theme_bw()+
+  theme(axis.text=element_text(color="black"))+
+  ylab("Species richness")+
+  xlab("Adult body mass")
+
+body_size_mod <- lme4::lmer(log10(Richness) ~ log10(adult_body_mass_g) + (1|DOI/ebird_COMMON_NAME),
+                            data=body_size_dat)
+summary(body_size_mod)
+
+body_size_prediction <- ggpredict(body_size_mod, terms="adult_body_mass_g")
+
+ggplot(body_size_prediction, aes(x, predicted)) +
+  geom_line() +
+  geom_ribbon(aes(ymin = conf.low, ymax = conf.high), alpha = .1)
+
+ggpredict(model = body_size_mod, terms="adult_body_mass_g", back.transform = TRUE) %>%
+  plot(add.data = TRUE)
+
+# get average richness per species?
+body_size_dat_v2 <- body_size_dat %>%
+  group_by(ebird_COMMON_NAME, DOI) %>%
+  mutate(mean_richness=mean(Richness),
+         sd_richness=sd(Richness)) %>%
+  dplyr::select(-Richness) %>%
+  distinct()
+
+ggplot(body_size_dat_v2, aes(x=adult_body_mass_g, y=mean_richness))+
+  geom_point()+
+  #scale_x_log10()+
+  #scale_y_log10()+
+  theme_bw()+
+  theme(axis.text=element_text(color="black"))+
+  ylab("Species richness")+
+  xlab("log10 Adult body mass (g)")
+
+ggplot(body_size_dat_v2, aes(x=adult_body_mass_g, y=mean_richness))+
+  geom_point()+
+  scale_x_log10()+
+  scale_y_log10()+
+  theme_bw()+
+  theme(axis.text=element_text(color="black"))+
+  ylab("Species richness (log10)")+
+  xlab("log10 Adult body mass (g)")+
+  geom_smooth(method="lm")
+
+
+#############################
+# range size vs richness
+
+# raw plots first
+range_size_dat <- analysis_dat %>%
+  dplyr::select(1, 3, 4, 12) %>%
+  dplyr::filter(complete.cases(.))
+
+ggplot(range_size_dat, aes(x=range_size, y=Richness))+
+  geom_point()+
+  scale_x_log10()+
+  scale_y_log10()+
+  theme_bw()+
+  theme(axis.text=element_text(color="black"))+
+  ylab("Species richness (log10)")+
+  xlab("log10 Range size (km2)")
+
+ggplot(range_size_dat, aes(x=range_size, y=Richness))+
+  geom_point()+
+  #scale_x_log10()+
+  #scale_y_log10()+
+  theme_bw()+
+  theme(axis.text=element_text(color="black"))+
+  ylab("Species richness (log10)")+
+  xlab("log10 Range size (km2)")
+
+hist(range_size_dat$Richness)
+
+range_size_mod <- lme4::glmer(Richness ~ log10(range_size) + (1|DOI/ebird_COMMON_NAME),
+                             family=poisson(), data=range_size_dat)
+summary(range_size_mod)
+
+range_size_prediction <- ggpredict(range_size_mod, terms="range_size")
+
+ggplot(range_size_prediction, aes(x, predicted)) +
+  geom_line() +
+  geom_ribbon(aes(ymin = conf.low, ymax = conf.high), alpha = .1)
+
+
+#############################
+# habitat breadth vs richness
+
+# raw plots first
+habitat_breadth_dat <- analysis_dat %>%
+  dplyr::select(1, 3, 4, 11) %>%
+  dplyr::filter(complete.cases(.))
+
+hist(habitat_breadth_dat$habitat_breadth)
+
+ggplot(habitat_breadth_dat, aes(x=habitat_breadth, y=Richness))+
+  geom_point()+
+  #scale_x_log10()+
+  #scale_y_log10()+
+  theme_bw()+
+  theme(axis.text=element_text(color="black"))+
+  ylab("Species richness")+
+  xlab("Habitat breadth")
+
+ggplot(habitat_breadth_dat, aes(x=habitat_breadth, y=Richness))+
+  geom_point()+
+  scale_x_log10()+
+  scale_y_log10()+
+  theme_bw()+
+  theme(axis.text=element_text(color="black"))+
+  ylab("Species richness (log10)")+
+  xlab("Habitat breadth (log10)")
+
+habitat_breadth_mod <- lme4::glmer(Richness ~ habitat_breadth + (1|DOI/ebird_COMMON_NAME),
+                              family=poisson(), data=habitat_breadth_dat)
+summary(habitat_breadth_mod)
+
+habitat_breadth_prediction <- ggpredict(habitat_breadth_mod, terms="habitat_breadth")
+
+ggplot(habitat_breadth_prediction, aes(x, predicted)) +
+  geom_line() +
+  geom_ribbon(aes(ymin = conf.low, ymax = conf.high), alpha = .1)+
+  geom_point(data=habitat_breadth_dat, aes(x=habitat_breadth, y=Richness))+
+  xlab("Habitat breadth")+
+  ylab("Species richness")+
+  theme_bw()+
+  theme(axis.text=element_text(color="black"))
+
+habitat_breadth_mod <- lme4::glmer(Richness ~ habitat_breadth + (1|DOI),
+                                   family=poisson(), data=habitat_breadth_dat)
+summary(habitat_breadth_mod)
+
+habitat_breadth_prediction <- ggpredict(habitat_breadth_mod, terms="habitat_breadth")
+
+ggplot(habitat_breadth_prediction, aes(x, predicted)) +
+  geom_line() +
+  geom_ribbon(aes(ymin = conf.low, ymax = conf.high), alpha = .1)+
+  geom_point(data=habitat_breadth_dat, aes(x=habitat_breadth, y=Richness))+
+  xlab("Habitat breadth")+
+  ylab("Species richness")+
+  theme_bw()+
+  theme(axis.text=element_text(color="black"))
+
+habitat_breadth_mod <- lme4::glmer(Richness ~ habitat_breadth + (1|ebird_COMMON_NAME),
+                                   family=poisson(), data=habitat_breadth_dat)
+summary(habitat_breadth_mod)
+
+habitat_breadth_prediction <- ggpredict(habitat_breadth_mod, terms="habitat_breadth")
+
+ggplot(habitat_breadth_prediction, aes(x, predicted)) +
+  geom_line() +
+  geom_ribbon(aes(ymin = conf.low, ymax = conf.high), alpha = .1)+
+  geom_point(data=habitat_breadth_dat, aes(x=habitat_breadth, y=Richness))+
+  xlab("Habitat breadth")+
+  ylab("Species richness")+
+  theme_bw()+
+  theme(axis.text=element_text(color="black"))
+
+
+
+
+#############################
+# flock size vs richness
+
+# raw plots first
+flock_size_dat <- analysis_dat %>%
+  dplyr::select(1, 3, 4, 10) %>%
+  dplyr::filter(complete.cases(.))
+
+hist(flock_size_dat$mean_flock_size)
+hist(log10(flock_size_dat$mean_flock_size))
+
+ggplot(flock_size_dat, aes(x=mean_flock_size, y=Richness))+
+  geom_point()+
+  #scale_x_log10()+
+  #scale_y_log10()+
+  theme_bw()+
+  theme(axis.text=element_text(color="black"))+
+  ylab("Species richness")+
+  xlab("Mean flock size")
+
+ggplot(flock_size_dat, aes(x=mean_flock_size, y=Richness))+
+  geom_point()+
+  scale_x_log10()+
+  scale_y_log10()+
+  theme_bw()+
+  theme(axis.text=element_text(color="black"))+
+  ylab("Species richness (log10)")+
+  xlab("Mean flock size (log10)")
+
+flock_size_mod <- lme4::glmer(Richness ~ mean_flock_size + (1|DOI/ebird_COMMON_NAME),
+                                   family=poisson(), data=flock_size_dat)
+summary(flock_size_mod)
+
+flock_size_prediction <- ggpredict(flock_size_mod, terms="mean_flock_size")
+
+ggplot(flock_size_prediction, aes(x, predicted)) +
+  geom_line() +
+  geom_ribbon(aes(ymin = conf.low, ymax = conf.high), alpha = .1)
+
+
+#############################
+# diet breadth vs richness
+
+# raw plots first
+diet_breadth_dat <- analysis_dat %>%
+  dplyr::select(1, 3, 4, 8) %>%
+  dplyr::filter(complete.cases(.))
+
+hist(diet_breadth_dat$diet_breadth)
+hist(log10(diet_breadth_dat$diet_breadth))
+
+ggplot(diet_breadth_dat, aes(x=diet_breadth, y=Richness))+
+  geom_point()+
+  #scale_x_log10()+
+  #scale_y_log10()+
+  theme_bw()+
+  theme(axis.text=element_text(color="black"))+
+  ylab("Species richness")+
+  xlab("Diet breadth")
+
+ggplot(diet_breadth_dat, aes(x=diet_breadth, y=Richness))+
+  geom_point()+
+  scale_x_log10()+
+  scale_y_log10()+
+  theme_bw()+
+  theme(axis.text=element_text(color="black"))+
+  ylab("Species richness (log10)")+
+  xlab("Diet breadth (log10)")
+
+diet_breadth_mod <- lme4::glmer(Richness ~ diet_breadth + (1|DOI/ebird_COMMON_NAME),
+                              family=poisson(), data=diet_breadth_dat)
+summary(diet_breadth_mod)
+
+diet_breadth_prediction <- ggpredict(diet_breadth_mod, terms="diet_breadth")
+
+ggplot(diet_breadth_prediction, aes(x, predicted)) +
+  geom_line() +
+  geom_ribbon(aes(ymin = conf.low, ymax = conf.high), alpha = .1)+
+  geom_point(data=diet_breadth_dat, aes(x=diet_breadth, y=Richness))+
+  xlab("Diet breadth")+
+  ylab("Species richness")+
+  theme_bw()+
+  theme(axis.text=element_text(color="black"))
+
+diet_breadth_mod <- lme4::glmer(Richness ~ diet_breadth + (1|DOI),
+                                family=poisson(), data=diet_breadth_dat)
+summary(diet_breadth_mod)
+
+diet_breadth_prediction <- ggpredict(diet_breadth_mod, terms="diet_breadth")
+
+ggplot(diet_breadth_prediction, aes(x, predicted)) +
+  geom_line() +
+  geom_ribbon(aes(ymin = conf.low, ymax = conf.high), alpha = .1)+
+  geom_point(data=diet_breadth_dat, aes(x=diet_breadth, y=Richness))+
+  xlab("Diet breadth")+
+  ylab("Species richness")+
+  theme_bw()+
+  theme(axis.text=element_text(color="black"))
+
+diet_breadth_mod <- lme4::glmer(Richness ~ diet_breadth + (1|ebird_COMMON_NAME),
+                                family=poisson(), data=diet_breadth_dat)
+summary(diet_breadth_mod)
+
+diet_breadth_prediction <- ggpredict(diet_breadth_mod, terms="diet_breadth")
+
+ggplot(diet_breadth_prediction, aes(x, predicted)) +
+  geom_line() +
+  geom_ribbon(aes(ymin = conf.low, ymax = conf.high), alpha = .1)+
+  geom_point(data=diet_breadth_dat, aes(x=diet_breadth, y=Richness))+
+  xlab("Diet breadth")+
+  ylab("Species richness")+
+  theme_bw()+
+  theme(axis.text=element_text(color="black"))
+
+
+
+
+# All traits
+full_traits <- analysis_dat %>%
+  dplyr::select(1:6, 8, 10:12) %>%
+  dplyr::filter(complete.cases(.))
+
+big_mod <- lme4::glmer(Richness ~ log10(adult_body_mass_g) + diet_breadth + habitat_breadth + mean_flock_size +
+                         (1|DOI/ebird_COMMON_NAME), family=poisson(), data=full_traits)
+
+summary(big_mod)
+
+broom.mixed::tidy(big_mod) %>%
+  slice(1:5) %>%
+  mutate(lwr_95=confint(big_mod) %>%
+           as.data.frame() %>%
+           slice(2:6) %>%
+           .[,1]) %>%
+  mutate(upr_95=confint(big_mod) %>%
+           as.data.frame() %>%
+           slice(2:6) %>%
+           .[,2]) %>%
+  ggplot(., aes(x=term, y=estimate))+
+  geom_point()+
+  geom_errorbar(aes(ymin=lwr_95, ymax=upr_95), width=0)+
+  theme_bw()+
+  theme(axis.text=element_text(color="black"))+
+  ylab("Parameter estimate")+
+  xlab("")+
+  coord_flip()+
+  geom_hline(yintercept=0, color="red", linetype="dashed")
+
+big_mod <- lme4::glmer(Richness ~ log10(adult_body_mass_g) + diet_breadth + habitat_breadth + mean_flock_size +
+                         (1|DOI), family=poisson(), data=full_traits)
+
+broom.mixed::tidy(big_mod) %>%
+  slice(1:5) %>%
+  mutate(lwr_95=confint(big_mod) %>%
+           as.data.frame() %>%
+           slice(2:6) %>%
+           .[,1]) %>%
+  mutate(upr_95=confint(big_mod) %>%
+           as.data.frame() %>%
+           slice(2:6) %>%
+           .[,2]) %>%
+  ggplot(., aes(x=term, y=estimate))+
+  geom_point()+
+  geom_errorbar(aes(ymin=lwr_95, ymax=upr_95), width=0)+
+  theme_bw()+
+  theme(axis.text=element_text(color="black"))+
+  ylab("Parameter estimate")+
+  xlab("")+
+  coord_flip()+
+  geom_hline(yintercept=0, color="red", linetype="dashed")
+
+big_mod <- lme4::glmer(Richness ~ log10(adult_body_mass_g) + diet_breadth + habitat_breadth + mean_flock_size +
+                         (1|ebird_COMMON_NAME), family=poisson(), data=full_traits)
+
+broom.mixed::tidy(big_mod) %>%
+  slice(1:5) %>%
+  mutate(lwr_95=confint(big_mod) %>%
+           as.data.frame() %>%
+           slice(2:6) %>%
+           .[,1]) %>%
+  mutate(upr_95=confint(big_mod) %>%
+           as.data.frame() %>%
+           slice(2:6) %>%
+           .[,2]) %>%
+  ggplot(., aes(x=term, y=estimate))+
+  geom_point()+
+  geom_errorbar(aes(ymin=lwr_95, ymax=upr_95), width=0)+
+  theme_bw()+
+  theme(axis.text=element_text(color="black"))+
+  ylab("Parameter estimate")+
+  xlab("")+
+  coord_flip()+
+  geom_hline(yintercept=0, color="red", linetype="dashed")
+
+summary(big_mod)
+
+plot(big_mod)
+hist(resid(big_mod))
+
+
+
+
+
+
+
+
+
+
 
 ggplot(analysis_dat %>%
          dplyr::filter(!ebird_COMMON_NAME %in% c("Red Junglefowl", "Emu")),
