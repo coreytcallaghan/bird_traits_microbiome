@@ -12,7 +12,7 @@ library(readr)
 library(stringr)
 
 # prepare trait data
-dat <- readr::read_csv("All_Metadata.csv")
+dat <- readr::read_csv("Raw data/All_Metadata.csv")
 
 # get unique list of species
 species <- dat %>%
@@ -24,7 +24,7 @@ species <- dat %>%
   distinct() %>%
   dplyr::filter(SCIENTIFIC_NAME != "Anser sp.")
 
-clements <- read_csv("clements_clean.csv")
+clements <- read_csv("Raw data/clements_clean.csv")
 
 species_list_clements <- species %>%
   left_join(., clements %>%
@@ -256,6 +256,14 @@ range_dat_full <- range_dat1 %>%
   bind_rows(range_dat2) %>%
   dplyr::filter(complete.cases(range.size.km2))
 
+# avonet traits
+# read in trait data
+avonet_traits <- read_csv("AVONET_data/Supplementary dataset 1.csv") %>%
+  rename(ebird_SCIENTIFIC_NAME=Species2)
+
+avonet_dat <- species_list_clements2 %>%
+  left_join(., avonet_traits)
+
 # combine into one dataframe
 trait_dat <- body_dat_full %>%
   left_join(., brain_dat_full) %>%
@@ -264,7 +272,8 @@ trait_dat <- body_dat_full %>%
   left_join(., clutch_dat_full) %>%
   left_join(., mig_dat_full) %>%
   left_join(., iucn_dat_full) %>%
-  left_join(., range_dat_full)
+  left_join(., range_dat_full) %>%
+  left_join(., avonet_dat)
 
 saveRDS(trait_dat, "Clean data/bird_trait_predictors.RDS")
 

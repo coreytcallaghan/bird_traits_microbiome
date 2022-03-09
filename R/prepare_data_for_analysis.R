@@ -111,7 +111,7 @@ analysis_dat <- alpha2 %>%
 # and drop some columns
 analysis_dat_cleaned <- analysis_dat %>%
   dplyr::filter(complete.cases(Richness)) %>%
-  dplyr::select(1:6, 16, 20, 22, 25:27, 30, 33, 34, 35, 36, 39:42, 45:46) %>%
+  dplyr::select(1:6, 16, 20, 22, 25:27, 30:46, 55:76) %>%
   rename(trophic_level=TrophicLevel,
          trophic_niche=TrophicNiche,
          foraging_niche=ForagingNiche,
