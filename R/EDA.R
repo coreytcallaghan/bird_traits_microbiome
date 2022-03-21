@@ -8,6 +8,8 @@ library(lme4)
 library(ggeffects)
 library(naniar)
 library(performance)
+library(brms)
+library(tidybayes)
 
 # prepare trait data
 analysis_dat <- readRDS("Clean data/analysis_data.RDS") %>%
@@ -20,10 +22,10 @@ length(unique(analysis_dat$DOI))
 # trim the data to traits of interest
 # and the variables necessary for analyses
 analysis_dat <- analysis_dat %>%
-  dplyr::select(3, 7, 8, 9, 10, 12, 14, 15, 17, 20:22)
+  dplyr::select(1:13, 25, 28, 29, 30:51)
 
 vis_miss(analysis_dat %>%
-           dplyr::select(6:12))+
+           dplyr::select(10:27, 33:38))+
   coord_flip()+
   theme_bw()+
   theme(axis.text=element_text(color="black"))
@@ -37,26 +39,272 @@ summarized_dat <- analysis_dat %>%
   group_by(ebird_COMMON_NAME) %>%
   summarize(number_studies=length(unique(DOI)))
 
+
+# a function that takes a predictor variable and fits a model
+single_regression_model_function_with <- function(predictor_name){
+  
+  message(paste0("Modelling ", predictor_name))
+  
+  temp_dat_with_big_birds <- analysis_dat %>%
+    dplyr::select(ebird_COMMON_NAME, Richness, ISimpson, DOI, Sample_type, predictor_name) %>%
+    rename(predictor=6) %>%
+    dplyr::filter(complete.cases(.))
+  
+  mod_with <- if(predictor_name %in% c("Mass", "range_size")) {
+    
+    brms::brm(Richness ~ log10(predictor) + (1|DOI/Sample_type),
+                   family=poisson(),
+                   data=temp_dat_with_big_birds,
+                   warmup=1000,
+                   iter=2000, 
+                   chains=4,
+                   control=list(adapt_delta=0.99))
+    
+    summary(mod_with)
+    
+    # coefficients table
+    coefficients <- brms_SummaryTable(mod_with)
+    
+    # get a sample of 1000 draws from the posterior
+    draws <- mod_with %>%
+      spread_draws(b_log10predictor) %>%
+      dplyr::select(b_log10predictor)
+    
+    saveRDS(draws, paste0("intermediate_results/single_regression_draws_", predictor_name, ".RDS"))
+    
+    # compute R2
+    r2 <- bayes_R2(mod_with, summary=TRUE) %>%
+      as.data.frame()
+    
+    # get fixed effects plot
+    fe_only <- tibble(predictor = seq(min(mod_with$data$predictor), 
+                                      max(mod_with$data$predictor), length.out=100)) %>%
+      add_fitted_draws(mod_with,
+                       re_formula = NA,
+                       scale = "response", n = 1e3)
+    
+    saveRDS(fe_only, paste0("intermediate_results/single_regression_fe_only_", predictor_name, ".RDS"))
+    
+    fe_only_mean <- fe_only %>% 
+      group_by(predictor) %>%
+      summarize(.value = mean(.value))
+    
+    saveRDS(fe_only_mean, paste0("intermediate_results/single_regression_fe_only_mean_", predictor_name, ".RDS"))
+    
+    # make plot of predicted line
+    predicted_fit <- ggplot()+
+      geom_line(data=fe_only, aes(x=predictor, y=.value, group=.draw), 
+                alpha=0.1)+
+      geom_line(data=fe_only_mean, aes(x=predictor, y=.value),
+                color="red", lwd=2, group=1)+
+      scale_x_log10()+
+      theme_bw()+
+      theme(axis.text=element_text(color="black"))+
+      xlab(paste0(predictor_name))+
+      ylab("Species richness")+
+      ggtitle("Fitted relationship")
+    
+    predicted_fit
+    
+    out_df <- coefficients %>%
+      mutate(model_R2=r2$Estimate) %>%
+      mutate(number_species=length(unique(temp_dat_with_big_birds$ebird_COMMON_NAME))) %>%
+      mutate(number_obs=nrow(temp_dat_with_big_birds)) %>%
+      mutate(number_studies=length(unique(temp_dat_with_big_birds$DOI))) %>%
+      mutate(type="with_big_birds") %>%
+      mutate(predictor=predictor_name)
+    
+    saveRDS(out_df, paste0("intermediate_results/single_regression_summary_", predictor_name, ".RDS"))
+    
+  } else if(!predictor_name %in% c("Habitat")){
+    
+    brms::brm(Richness ~ predictor + (1|DOI/Sample_type),
+              family=poisson(),
+              data=temp_dat_with_big_birds,
+              warmup=1000,
+              iter=2000, 
+              chains=4,
+              control=list(adapt_delta=0.99))
+    
+    summary(mod_with)
+    
+    # coefficients table
+    coefficients <- brms_SummaryTable(mod_with)
+    
+    draws <- mod_with %>%
+      spread_draws(b_Intercept, b_predictorGrassland, b_predictorHumanModified, 
+                   b_predictorShrubland, b_predictorWetland, b_predictorWoodland)
+    
+    saveRDS(draws, paste0("intermediate_results/single_regression_draws_", predictor_name, ".RDS"))
+    
+    # compute R2
+    r2 <- bayes_R2(mod_with, summary=TRUE) %>%
+      as.data.frame()
+    
+    # get fixed effects plot
+    fe_only <- tibble(predictor = rep_len(unique(mod_with$data$predictor), length.out=100)) %>%
+      add_fitted_draws(mod_with,
+                       re_formula = NA,
+                       scale = "response", n = 1e3)
+    
+    saveRDS(fe_only, paste0("intermediate_results/single_regression_fe_only_", predictor_name, ".RDS"))
+    
+    fe_only_mean <- fe_only %>% 
+      group_by(predictor) %>%
+      summarize(.value = mean(.value))
+    
+    saveRDS(fe_only_mean, paste0("intermediate_results/single_regression_fe_only_mean_", predictor_name, ".RDS"))
+    
+    out_df <- coefficients %>%
+      mutate(model_R2=r2$Estimate) %>%
+      mutate(number_species=length(unique(temp_dat_with_big_birds$ebird_COMMON_NAME))) %>%
+      mutate(number_obs=nrow(temp_dat_with_big_birds)) %>%
+      mutate(number_studies=length(unique(temp_dat_with_big_birds$DOI))) %>%
+      mutate(type="with_big_birds") %>%
+      mutate(predictor=predictor_name)
+    
+    saveRDS(out_df, paste0("intermediate_results/single_regression_summary_", predictor_name, ".RDS"))
+    
+  } else if(!predictor_name %in% c("Primary.Lifestyle")){
+    
+    brms::brm(Richness ~ predictor + (1|DOI/Sample_type),
+              family=poisson(),
+              data=temp_dat_with_big_birds,
+              warmup=1000,
+              iter=2000, 
+              chains=4,
+              control=list(adapt_delta=0.99))
+    
+    summary(mod_with)
+    
+    # coefficients table
+    coefficients <- brms_SummaryTable(mod_with)
+    
+    draws <- mod_with %>%
+      spread_draws(b_Intercept, b_predictorTerrestrial, b_predictorInsessorial, 
+                   b_predictorGeneralist)
+    
+    saveRDS(draws, paste0("intermediate_results/single_regression_draws_", predictor_name, ".RDS"))
+    
+    # compute R2
+    r2 <- bayes_R2(mod_with, summary=TRUE) %>%
+      as.data.frame()
+    
+    # get fixed effects plot
+    fe_only <- tibble(predictor = rep_len(unique(mod_with$data$predictor), length.out=100)) %>%
+      add_fitted_draws(mod_with,
+                       re_formula = NA,
+                       scale = "response", n = 1e3)
+    
+    saveRDS(fe_only, paste0("intermediate_results/single_regression_fe_only_", predictor_name, ".RDS"))
+    
+    fe_only_mean <- fe_only %>% 
+      group_by(predictor) %>%
+      summarize(.value = mean(.value))
+    
+    saveRDS(fe_only_mean, paste0("intermediate_results/single_regression_fe_only_mean_", predictor_name, ".RDS"))
+    
+    out_df <- coefficients %>%
+      mutate(model_R2=r2$Estimate) %>%
+      mutate(number_species=length(unique(temp_dat_with_big_birds$ebird_COMMON_NAME))) %>%
+      mutate(number_obs=nrow(temp_dat_with_big_birds)) %>%
+      mutate(number_studies=length(unique(temp_dat_with_big_birds$DOI))) %>%
+      mutate(type="with_big_birds") %>%
+      mutate(predictor=predictor_name)
+    
+    saveRDS(out_df, paste0("intermediate_results/single_regression_summary_", predictor_name, ".RDS"))
+    
+  } else if(!predictor_name %in% c("Trophic.Niche")){
+    
+    brms::brm(Richness ~ predictor + (1|DOI/Sample_type),
+              family=poisson(),
+              data=temp_dat_with_big_birds,
+              warmup=1000,
+              iter=2000, 
+              chains=4,
+              control=list(adapt_delta=0.99))
+    
+    summary(mod_with)
+    
+    # coefficients table
+    coefficients <- brms_SummaryTable(mod_with)
+    
+    draws <- mod_with %>%
+      spread_draws(b_Intercept, b_predictorGranivore, b_predictorOmnivore,
+                   b_predictorInvertivore, b_predictorFrugivore, b_predictorNectarivore, 
+                   b_predictorHerbivoreterrestrial)
+    
+    saveRDS(draws, paste0("intermediate_results/single_regression_draws_", predictor_name, ".RDS"))
+    
+    # compute R2
+    r2 <- bayes_R2(mod_with, summary=TRUE) %>%
+      as.data.frame()
+    
+    # get fixed effects plot
+    fe_only <- tibble(predictor = rep_len(unique(mod_with$data$predictor), length.out=100)) %>%
+      add_fitted_draws(mod_with,
+                       re_formula = NA,
+                       scale = "response", n = 1e3)
+    
+    saveRDS(fe_only, paste0("intermediate_results/single_regression_fe_only_", predictor_name, ".RDS"))
+    
+    fe_only_mean <- fe_only %>% 
+      group_by(predictor) %>%
+      summarize(.value = mean(.value))
+    
+    saveRDS(fe_only_mean, paste0("intermediate_results/single_regression_fe_only_mean_", predictor_name, ".RDS"))
+    
+    out_df <- coefficients %>%
+      mutate(model_R2=r2$Estimate) %>%
+      mutate(number_species=length(unique(temp_dat_with_big_birds$ebird_COMMON_NAME))) %>%
+      mutate(number_obs=nrow(temp_dat_with_big_birds)) %>%
+      mutate(number_studies=length(unique(temp_dat_with_big_birds$DOI))) %>%
+      mutate(type="with_big_birds") %>%
+      mutate(predictor=predictor_name)
+    
+    saveRDS(out_df, paste0("intermediate_results/single_regression_summary_", predictor_name, ".RDS"))
+    
+  }
+  
+  
+  }
+
+idk <- single_regression_model_function("range_size")
+
+
+
+
 #############################
 # body mass vs richness
 
 # raw plots first
 body_size_dat <- analysis_dat %>%
-  dplyr::select(1, 3, 4, 6) %>%
+  dplyr::select(ebird_COMMON_NAME, Richness, ISimpson, Mass, DOI, Sample_type) %>%
   dplyr::filter(complete.cases(.)) %>%
-  mutate(adult_body_mass_g_log10=log10(adult_body_mass_g)) %>%
+  mutate(Mass_g_log10=log10(Mass)) %>%
   dplyr::filter(! ebird_COMMON_NAME %in% c("Emu", "Red Junglefowl"))
 
-ggplot(body_size_dat, aes(x=adult_body_mass_g, y=Richness))+
+body_size_dat2 <- body_size_dat %>%
+  group_by(ebird_COMMON_NAME) %>%
+  summarize(SR=mean(Richness),
+            Mass=mean(Mass),
+            N=n())
+
+ggplot(body_size_dat2, aes(x=Mass, y=SR))+
   geom_point()+
-  #scale_x_log10()+
+  scale_x_log10()
+
+ggplot(body_size_dat, aes(x=Mass, y=Richness, group=DOI, color=DOI))+
+  geom_point()+
+  scale_x_log10()+
   #scale_y_log10()+
   theme_bw()+
   theme(axis.text=element_text(color="black"))+
   ylab("Species richness")+
-  xlab("log10 Adult body mass (g)")
+  xlab("log10 Adult body mass (g)")+
+  geom_smooth(method="lm")
 
-ggplot(body_size_dat, aes(x=adult_body_mass_g, y=Richness))+
+ggplot(body_size_dat, aes(x=Mass, y=Richness))+
   geom_point()+
   scale_x_log10()+
   scale_y_log10()+
@@ -65,11 +313,11 @@ ggplot(body_size_dat, aes(x=adult_body_mass_g, y=Richness))+
   ylab("Species richness (log10)")+
   xlab("log10 Adult body mass (g)")
 
-body_size_mod <- lme4::glmer(Richness ~ log10(adult_body_mass_g) + (1|DOI/ebird_COMMON_NAME),
+body_size_mod <- lme4::glmer(Richness ~ log10(Mass) + (1|DOI/Sample_type),
                             family=poisson(), data=body_size_dat)
 summary(body_size_mod)
 
-body_size_mod <- lme4::glmer(Richness ~ log10(adult_body_mass_g) + (1|DOI) + (1|ebird_COMMON_NAME),
+body_size_mod <- lme4::glmer(Richness ~ log10(Mass) + (1|DOI) + (1|ebird_COMMON_NAME),
                              family=poisson(), data=body_size_dat)
 summary(body_size_mod)
 

@@ -258,11 +258,23 @@ range_dat_full <- range_dat1 %>%
 
 # avonet traits
 # read in trait data
-avonet_traits <- read_csv("AVONET_data/Supplementary dataset 1.csv") %>%
+avonet_traits <- read_csv("AVONET_data/AVONET2_eBird.csv") %>%
+  left_join(., read_csv("AVONET_data/BirdLife_eBird_taxonomy_match.csv")) %>%
+  left_join(.,  read_csv("AVONET_data/AVONET1_BirdLife.csv") %>%
+              dplyr::select(Species1, Range.Size)) %>%
   rename(ebird_SCIENTIFIC_NAME=Species2)
 
 avonet_dat <- species_list_clements2 %>%
   left_join(., avonet_traits)
+
+# population abundance
+pop_abund <- read_csv("trait_data/pop_abundance/pnas.2023170118.sd01.csv")
+
+pop_dat <- species_list_clements2 %>%
+  left_join(., pop_abund %>%
+              dplyr::select(`Common name`, `Abundance estimate`) %>%
+              rename(ebird_COMMON_NAME=1,
+                     pop_abund=2))
 
 # combine into one dataframe
 trait_dat <- body_dat_full %>%
@@ -273,7 +285,11 @@ trait_dat <- body_dat_full %>%
   left_join(., mig_dat_full) %>%
   left_join(., iucn_dat_full) %>%
   left_join(., range_dat_full) %>%
-  left_join(., avonet_dat)
+  left_join(., avonet_dat) %>%
+  left_join(., pop_dat) %>%
+  group_by(ebird_COMMON_NAME) %>%
+  slice(1) %>%
+  ungroup()
 
 saveRDS(trait_dat, "Clean data/bird_trait_predictors.RDS")
 

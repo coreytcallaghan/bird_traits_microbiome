@@ -111,11 +111,12 @@ analysis_dat <- alpha2 %>%
 # and drop some columns
 analysis_dat_cleaned <- analysis_dat %>%
   dplyr::filter(complete.cases(Richness)) %>%
-  dplyr::select(1:6, 16, 20, 22, 25:27, 30:46, 55:76) %>%
-  rename(trophic_level=TrophicLevel,
-         trophic_niche=TrophicNiche,
-         foraging_niche=ForagingNiche,
-         habitat_breadth=Habitat_Breadth,
-         range_size=range.size.km2)
+  dplyr::select(1:6, 16, 20, 22, 25:27, 42, 45, 65, 71:76, 84, 85) %>%
+  rename(habitat_breadth=Habitat_Breadth) %>%
+  mutate(Migration=case_when(Migration==1 ~ "Sedentary",
+                             Migration==2 ~ "Partially migratory",
+                             Migration==3 ~ "Migratory")) %>%
+  dplyr::filter(complete.cases(Mass)) %>%
+  mutate(ebird_COMMON_NAME=ifelse(ebird_SCIENTIFIC_NAME=="Geospiza conirostris", "Espanola Ground-Finch", ebird_COMMON_NAME))
 
 saveRDS(analysis_dat_cleaned, "Clean data/analysis_data.RDS")
