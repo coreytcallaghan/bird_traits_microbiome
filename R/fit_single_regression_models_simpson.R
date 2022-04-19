@@ -18,7 +18,7 @@ library(brms)
 library(tidybayes)
 
 # prepare trait data
-analysis_dat <- readRDS("Clean data/analysis_data.RDS") %>%
+analysis_dat <- readRDS("Clean data/analysis_data_alpha.RDS") %>%
   dplyr::filter(complete.cases(ebird_COMMON_NAME))
 
 length(unique(analysis_dat$ebird_COMMON_NAME))
@@ -67,7 +67,8 @@ single_regression_model_function <- function(predictor_name){
                                       max(mod_with$data$predictor), length.out=100)) %>%
       add_fitted_draws(mod_with,
                        re_formula = NA,
-                       scale = "response", n = 1e3)
+                       scale = "response", n = 1e3) %>%
+      mutate(.value=10^.value)
     
     saveRDS(fe_only, paste0("intermediate_results/single_regression_ISimpson_fe_only_", predictor_name, ".RDS"))
     
@@ -117,7 +118,8 @@ single_regression_model_function <- function(predictor_name){
     fe_only <- tibble(predictor = rep_len(unique(mod_with$data$predictor), length.out=100)) %>%
       add_fitted_draws(mod_with,
                        re_formula = NA,
-                       scale = "response", n = 1e3)
+                       scale = "response", n = 1e3) %>%
+      mutate(.value=10^.value)
     
     saveRDS(fe_only, paste0("intermediate_results/single_regression_ISimpson_fe_only_", predictor_name, ".RDS"))
     
@@ -167,7 +169,8 @@ single_regression_model_function <- function(predictor_name){
     fe_only <- tibble(predictor = rep_len(unique(mod_with$data$predictor), length.out=100)) %>%
       add_fitted_draws(mod_with,
                        re_formula = NA,
-                       scale = "response", n = 1e3)
+                       scale = "response", n = 1e3) %>%
+      mutate(.value=10^.value)
     
     saveRDS(fe_only, paste0("intermediate_results/single_regression_ISimpson_fe_only_", predictor_name, ".RDS"))
     
@@ -218,7 +221,8 @@ single_regression_model_function <- function(predictor_name){
     fe_only <- tibble(predictor = rep_len(unique(mod_with$data$predictor), length.out=100)) %>%
       add_fitted_draws(mod_with,
                        re_formula = NA,
-                       scale = "response", n = 1e3)
+                       scale = "response", n = 1e3) %>%
+      mutate(.value=10^.value)
     
     saveRDS(fe_only, paste0("intermediate_results/single_regression_ISimpson_fe_only_", predictor_name, ".RDS"))
     
@@ -267,7 +271,8 @@ single_regression_model_function <- function(predictor_name){
     fe_only <- tibble(predictor = rep_len(unique(mod_with$data$predictor), length.out=100)) %>%
       add_fitted_draws(mod_with,
                        re_formula = NA,
-                       scale = "response", n = 1e3)
+                       scale = "response", n = 1e3) %>%
+      mutate(.value=10^.value)
     
     saveRDS(fe_only, paste0("intermediate_results/single_regression_ISimpson_fe_only_", predictor_name, ".RDS"))
     

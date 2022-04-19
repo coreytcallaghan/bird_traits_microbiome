@@ -71,7 +71,8 @@ fixes <- species_list_clements %>%
                                  "Camarhynchus pallidus",
                                  "Turdus flavipes"))
 
-
+gamma_richness <- read.table("Raw data/gamma_Richness.txt", header=TRUE)
+gamma_simpson <- read.table("Raw data/gamma_ISimpson.txt", header=TRUE)
 alpha <- readr::read_csv("Raw data/AlphaDiversity.csv")
 
 # prepare trait data
@@ -109,14 +110,41 @@ analysis_dat <- alpha2 %>%
 
 # now clean up the data
 # and drop some columns
-analysis_dat_cleaned <- analysis_dat %>%
-  dplyr::filter(complete.cases(Richness)) %>%
-  dplyr::select(1:6, 16, 20, 22, 25:27, 42, 45, 65, 71:76, 84, 85) %>%
+analysis_dat_cleaned_richness <- analysis_dat %>%
+  left_join(., gamma_richness %>%
+              rename(database_SCIENTIFIC_NAME=ScientificName) %>%
+              rename(DOI=Study) %>%
+              dplyr::select(2:4)) %>%
+  dplyr::select(1:6, 22, 42, 45, 65, 71:76, 84, 85, 86, 87) %>%
+  distinct() %>%
   rename(habitat_breadth=Habitat_Breadth) %>%
   mutate(Migration=case_when(Migration==1 ~ "Sedentary",
                              Migration==2 ~ "Partially migratory",
                              Migration==3 ~ "Migratory")) %>%
   dplyr::filter(complete.cases(Mass)) %>%
-  mutate(ebird_COMMON_NAME=ifelse(ebird_SCIENTIFIC_NAME=="Geospiza conirostris", "Espanola Ground-Finch", ebird_COMMON_NAME))
+  mutate(ebird_COMMON_NAME=ifelse(ebird_SCIENTIFIC_NAME=="Geospiza conirostris", "Espanola Ground-Finch", ebird_COMMON_NAME)) %>%
+  dplyr::filter(complete.cases(mean)) %>%
+  rename(gamma_Richness=mean,
+         gamma_Richness_sd=sd)
 
-saveRDS(analysis_dat_cleaned, "Clean data/analysis_data.RDS")
+analysis_dat_cleaned_isimpson <- analysis_dat %>%
+  left_join(., gamma_simpson %>%
+              rename(database_SCIENTIFIC_NAME=ScientificName) %>%
+              rename(DOI=Study) %>%
+              dplyr::select(2:4)) %>%
+  dplyr::select(1:6, 22, 42, 45, 65, 71:76, 84, 85, 86, 87) %>%
+  distinct() %>%
+  rename(habitat_breadth=Habitat_Breadth) %>%
+  mutate(Migration=case_when(Migration==1 ~ "Sedentary",
+                             Migration==2 ~ "Partially migratory",
+                             Migration==3 ~ "Migratory")) %>%
+  dplyr::filter(complete.cases(Mass)) %>%
+  mutate(ebird_COMMON_NAME=ifelse(ebird_SCIENTIFIC_NAME=="Geospiza conirostris", "Espanola Ground-Finch", ebird_COMMON_NAME)) %>%
+  dplyr::filter(complete.cases(mean)) %>%
+  rename(gamma_ISimpson=mean,
+         gamma_ISimpson_sd=sd)
+
+analysis_dat_cleaned <- analysis_dat_cleaned_richness %>%
+  left_join(., analysis_dat_cleaned_isimpson)
+
+saveRDS(analysis_dat_cleaned, "Clean data/analysis_data_gamma.RDS")
