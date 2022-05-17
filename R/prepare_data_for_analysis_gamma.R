@@ -114,8 +114,9 @@ analysis_dat_cleaned_richness <- analysis_dat %>%
   left_join(., gamma_richness %>%
               rename(database_SCIENTIFIC_NAME=ScientificName) %>%
               rename(DOI=Study) %>%
+              rename(Sample_type=Site) %>%
               dplyr::select(2:4)) %>%
-  dplyr::select(1:6, 22, 42, 45, 65, 71:76, 84, 85, 86, 87) %>%
+  dplyr::select(1:6, 20, 22, 42, 45, 65, 71:76, 84, 85, 86, 87) %>%
   distinct() %>%
   rename(habitat_breadth=Habitat_Breadth) %>%
   mutate(Migration=case_when(Migration==1 ~ "Sedentary",
@@ -131,8 +132,9 @@ analysis_dat_cleaned_isimpson <- analysis_dat %>%
   left_join(., gamma_simpson %>%
               rename(database_SCIENTIFIC_NAME=ScientificName) %>%
               rename(DOI=Study) %>%
+              rename(Sample_type=Site) %>%
               dplyr::select(2:4)) %>%
-  dplyr::select(1:6, 22, 42, 45, 65, 71:76, 84, 85, 86, 87) %>%
+  dplyr::select(1:6, 20, 22, 42, 45, 65, 71:76, 84, 85, 86, 87) %>%
   distinct() %>%
   rename(habitat_breadth=Habitat_Breadth) %>%
   mutate(Migration=case_when(Migration==1 ~ "Sedentary",

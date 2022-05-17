@@ -31,13 +31,13 @@ single_regression_model_function <- function(predictor_name){
   message(paste0("Modelling ", predictor_name))
   
   temp_dat_with_big_birds <- analysis_dat %>%
-    dplyr::select(ebird_COMMON_NAME, gamma_ISimpson, DOI, predictor_name) %>%
-    rename(predictor=4) %>%
+    dplyr::select(ebird_COMMON_NAME, Sample_type, gamma_ISimpson, DOI, predictor_name) %>%
+    rename(predictor=5) %>%
     dplyr::filter(complete.cases(.))
   
   if(predictor_name %in% c("Mass", "Range.Size", "mean_flock_size", "habitat_breadth", "pop_abund")) {
     
-    mod_with <- brms::brm(gamma_ISimpson ~ log10(predictor) + (1|DOI),
+    mod_with <- brms::brm(gamma_ISimpson ~ log10(predictor) + (1|DOI/Sample_type),
                           family=gaussian(),
                           data=temp_dat_with_big_birds,
                           warmup=1000,
@@ -89,7 +89,7 @@ single_regression_model_function <- function(predictor_name){
     
   } else if(predictor_name %in% c("Habitat")){
     
-    mod_with <- brms::brm(gamma_ISimpson ~ predictor + (1|DOI),
+    mod_with <- brms::brm(gamma_ISimpson ~ predictor + (1|DOI/Sample_type),
                           family=gaussian(),
                           data=temp_dat_with_big_birds,
                           warmup=1000,
@@ -139,7 +139,7 @@ single_regression_model_function <- function(predictor_name){
     
   } else if(predictor_name %in% c("Primary.Lifestyle")){
     
-    mod_with <- brms::brm(gamma_ISimpson ~ predictor + (1|DOI),
+    mod_with <- brms::brm(gamma_ISimpson ~ predictor + (1|DOI/Sample_type),
                           family=gaussian(),
                           data=temp_dat_with_big_birds,
                           warmup=1000,
@@ -189,7 +189,7 @@ single_regression_model_function <- function(predictor_name){
     
   } else if(predictor_name %in% c("Trophic.Niche")){
     
-    mod_with <- brms::brm(gamma_ISimpson ~ predictor + (1|DOI),
+    mod_with <- brms::brm(gamma_ISimpson ~ predictor + (1|DOI/Sample_type),
                           family=gaussian(),
                           data=temp_dat_with_big_birds,
                           warmup=1000,
