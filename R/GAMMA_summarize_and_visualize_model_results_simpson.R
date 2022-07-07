@@ -26,8 +26,45 @@ get_summary <- function(predictor_name){
 }
 
 overall_summary <- bind_rows(lapply(c("Mass", "Range.Size", "habitat_breadth", "pop_abund", 
-                                      "mean_flock_size", "Habitat", "Trophic.Level", "Trophic.Niche",
+                                      "mean_flock_size", "Habitat", "Trophic.Level",
                                       "Primary.Lifestyle"), get_summary))
+
+overall_summary %>%
+  mutate(Estimate=as.numeric(as.character(Estimate))) %>%
+  mutate(upr=as.numeric(as.character(`u-95% CI`))) %>%
+  mutate(lwr=as.numeric(as.character(`l-95% CI`))) %>%
+  mutate(predictor2=case_when(predictor=="Mass" ~ "Body mass",
+                              predictor=="mean_flock_size" ~ "Flock size",
+                              predictor=="Range.Size" ~ "Range size",
+                              predictor=="Habitat" ~ "Primary habitat",
+                              predictor=="Trophic.Level" ~ "Trophic level",
+                              predictor=="Primary.Lifestyle" ~ "Primary lifestyle",
+                              predictor=="pop_abund" ~ "Global abundance",
+                              predictor=="habitat_breadth" ~ "Habitat breadth")) %>%
+  mutate(Covariate=gsub("predictor", "", Covariate)) %>%
+  mutate(Covariate=gsub("HumanModified", "Human modified", Covariate)) %>%
+  mutate(Covariate=ifelse(predictor=="Mass" & Covariate=="log10", "Body mass", Covariate)) %>%
+  mutate(Covariate=ifelse(predictor=="mean_flock_size" & Covariate=="log10", "Flock size", Covariate)) %>%
+  mutate(Covariate=ifelse(predictor=="pop_abund" & Covariate=="log10", "Global abundance", Covariate)) %>%
+  mutate(Covariate=ifelse(predictor=="habitat_breadth" & Covariate=="log10", "Habitat breadth", Covariate)) %>%
+  mutate(Covariate=ifelse(predictor=="Range.Size" & Covariate=="log10", "Range size", Covariate)) %>%
+  mutate(predictor2=factor(predictor2, levels=c("Body mass", "Flock size", "Global abundance",
+                                                "Habitat breadth", "Range size", "Trophic level",
+                                                "Primary habitat", "Primary lifestyle"))) %>%
+  arrange(Estimate) %>%
+  ggplot(., aes(x=fct_inorder(Covariate), y=Estimate))+
+  geom_point()+
+  geom_errorbar(aes(x=fct_inorder(Covariate), y=Estimate, ymin=lwr, ymax=upr), width=0)+
+  theme_bw()+
+  theme(axis.text=element_text(color="black"))+
+  geom_hline(yintercept=0, color="red", linetype="dashed")+
+  coord_flip()+
+  ylab("Parameter estimate")+
+  xlab("")+
+  ggtitle("Gamma Simpson")+
+  facet_wrap(~predictor2, nrow=4, scales="free")
+
+ggsave("Figures/gamma_simpson_individual_model_results.png", height=6.7, width=5.8, units="in")
 
 ############################
 ############################

@@ -85,7 +85,7 @@ single_regression_model_function <- function(predictor_name){
       mutate(type="with_big_birds") %>%
       mutate(predictor=predictor_name)
     
-    saveRDS(out_df, paste0("intermediate_results/single_regression_richness_summary_", predictor_name, ".RDS"))
+    saveRDS(out_df, paste0("intermediate_results/gamma_single_regression_richness_summary_", predictor_name, ".RDS"))
     
   } else if(predictor_name %in% c("Habitat")){
     

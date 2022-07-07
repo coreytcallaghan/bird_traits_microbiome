@@ -6,6 +6,8 @@ library(ggplot2)
 library(ggstance)
 library(tidybayes)
 library(tidyr)
+library(forcats)
+library(patchwork)
 
 # prepare trait data
 analysis_dat <- readRDS("Clean data/analysis_data_alpha.RDS") %>%
@@ -26,8 +28,45 @@ get_summary <- function(predictor_name){
 }
 
 overall_summary <- bind_rows(lapply(c("Mass", "Range.Size", "habitat_breadth", "pop_abund", 
-                                      "mean_flock_size", "Habitat", "Trophic.Level", "Trophic.Niche",
+                                      "mean_flock_size", "Habitat", "Trophic.Level", 
                                       "Primary.Lifestyle"), get_summary))
+
+overall_summary %>%
+  mutate(Estimate=as.numeric(as.character(Estimate))) %>%
+  mutate(upr=as.numeric(as.character(`u-95% CI`))) %>%
+  mutate(lwr=as.numeric(as.character(`l-95% CI`))) %>%
+  mutate(predictor2=case_when(predictor=="Mass" ~ "Body mass",
+                              predictor=="mean_flock_size" ~ "Flock size",
+                              predictor=="Range.Size" ~ "Range size",
+                              predictor=="Habitat" ~ "Primary habitat",
+                              predictor=="Trophic.Level" ~ "Trophic level",
+                              predictor=="Primary.Lifestyle" ~ "Primary lifestyle",
+                              predictor=="pop_abund" ~ "Global abundance",
+                              predictor=="habitat_breadth" ~ "Habitat breadth")) %>%
+  mutate(Covariate=gsub("predictor", "", Covariate)) %>%
+  mutate(Covariate=gsub("HumanModified", "Human modified", Covariate)) %>%
+  mutate(Covariate=ifelse(predictor=="Mass" & Covariate=="log10", "Body mass", Covariate)) %>%
+  mutate(Covariate=ifelse(predictor=="mean_flock_size" & Covariate=="log10", "Flock size", Covariate)) %>%
+  mutate(Covariate=ifelse(predictor=="pop_abund" & Covariate=="log10", "Global abundance", Covariate)) %>%
+  mutate(Covariate=ifelse(predictor=="habitat_breadth" & Covariate=="log10", "Habitat breadth", Covariate)) %>%
+  mutate(Covariate=ifelse(predictor=="Range.Size" & Covariate=="log10", "Range size", Covariate)) %>%
+  mutate(predictor2=factor(predictor2, levels=c("Body mass", "Flock size", "Global abundance",
+                                                   "Habitat breadth", "Range size", "Trophic level",
+                                                   "Primary habitat", "Primary lifestyle"))) %>%
+  arrange(Estimate) %>%
+  ggplot(., aes(x=fct_inorder(Covariate), y=Estimate))+
+  geom_point()+
+  geom_errorbar(aes(x=fct_inorder(Covariate), y=Estimate, ymin=lwr, ymax=upr), width=0)+
+  theme_bw()+
+  theme(axis.text=element_text(color="black"))+
+  geom_hline(yintercept=0, color="red", linetype="dashed")+
+  coord_flip()+
+  ylab("Parameter estimate")+
+  xlab("")+
+  ggtitle("Alpha Richness")+
+  facet_wrap(~predictor2, nrow=4, scales="free")
+
+ggsave("Figures/alpha_richness_individual_model_results.png", height=6.7, width=5.8, units="in")
 
 ############################
 ############################
@@ -52,7 +91,7 @@ mass_plot_raw <- ggplot()+
   theme(axis.text=element_text(color="black"))+
   xlab("Body mass (g)")+
   ylab("Microbial species richness")+
-  ggtitle("A")
+  ggtitle("A        Body mass")
 
 mass_plot_raw
 
@@ -62,9 +101,14 @@ mass_plot_posterior <- ggplot()+
   theme(axis.text=element_text(color="black"))+
   geom_vline(xintercept=0, color="red", linetype="dashed")+
   xlab("Posterior distribution")+
-  ylab("")
+  ylab("")+
+  ggtitle("B")
 
 mass_plot_posterior
+
+mass_plot_raw + mass_plot_posterior + plot_layout(ncol=1)
+
+ggsave("Figures/single_regression_richness_body_mass_results.png", height=7.4, width=6.8, units="in")
 
 ##################################
 ##################################
@@ -89,7 +133,7 @@ Range.Size_plot <- ggplot()+
   theme(axis.text=element_text(color="black"))+
   xlab("Range size (km2)")+
   ylab("Microbial species richness")+
-  ggtitle("B")
+  ggtitle("A        Range size")
 
 Range.Size_plot
 
@@ -99,9 +143,14 @@ Range.Size_plot_posterior <- ggplot()+
   theme(axis.text=element_text(color="black"))+
   geom_vline(xintercept=0, color="red", linetype="dashed")+
   xlab("Posterior distribution")+
-  ylab("")
+  ylab("")+
+  ggtitle("B")
 
 Range.Size_plot_posterior
+
+Range.Size_plot + Range.Size_plot_posterior + plot_layout(ncol=1)
+
+ggsave("Figures/single_regression_richness_range_size_results.png", height=7.4, width=6.8, units="in")
 
 ########################################
 ########################################
@@ -126,7 +175,7 @@ habitat_breadth_plot <- ggplot()+
   theme(axis.text=element_text(color="black"))+
   xlab("Habitat breadth")+
   ylab("Microbial species richness")+
-  ggtitle("C")
+  ggtitle("A        Habitat breadth")
 
 habitat_breadth_plot
 
@@ -136,9 +185,14 @@ habitat_breadth_plot_posterior <- ggplot()+
   theme(axis.text=element_text(color="black"))+
   geom_vline(xintercept=0, color="red", linetype="dashed")+
   xlab("Posterior distribution")+
-  ylab("")
+  ylab("")+
+  ggtitle("B")
 
 habitat_breadth_plot_posterior
+
+habitat_breadth_plot + habitat_breadth_plot_posterior + plot_layout(ncol=1)
+
+ggsave("Figures/single_regression_richness_habitat_breadth_results.png", height=7.4, width=6.8, units="in")
 
 ###################################
 ###################################
@@ -161,9 +215,9 @@ flock_size_plot_raw <- ggplot()+
   scale_x_log10()+
   theme_bw()+
   theme(axis.text=element_text(color="black"))+
-  xlab("Mean flock size)")+
+  xlab("Flock size)")+
   ylab("Microbial species richness")+
-  ggtitle("A")
+  ggtitle("A        Flock size")
 
 flock_size_plot_raw
 
@@ -173,9 +227,14 @@ flock_size_plot_posterior <- ggplot()+
   theme(axis.text=element_text(color="black"))+
   geom_vline(xintercept=0, color="red", linetype="dashed")+
   xlab("Posterior distribution")+
-  ylab("")
+  ylab("")+
+  ggtitle("B")
 
 flock_size_plot_posterior
+
+flock_size_plot_raw + flock_size_plot_posterior + plot_layout(ncol=1)
+
+ggsave("Figures/single_regression_richness_flock_size_results.png", height=7.4, width=6.8, units="in")
 
 ###################################
 ###################################
@@ -200,7 +259,7 @@ pop_abund_plot_raw <- ggplot()+
   theme(axis.text=element_text(color="black"))+
   xlab("Population abundance")+
   ylab("Microbial species richness")+
-  ggtitle("A")
+  ggtitle("A        Global abundance")
 
 pop_abund_plot_raw
 
@@ -210,9 +269,14 @@ pop_abund_plot_posterior <- ggplot()+
   theme(axis.text=element_text(color="black"))+
   geom_vline(xintercept=0, color="red", linetype="dashed")+
   xlab("Posterior distribution")+
-  ylab("")
+  ylab("")+
+  ggtitle("B")
 
 pop_abund_plot_posterior
+
+pop_abund_plot_raw + pop_abund_plot_posterior + plot_layout(ncol=1)
+
+ggsave("Figures/single_regression_richness_pop_abund_results.png", height=7.4, width=6.8, units="in")
 
 ###################################
 ###################################
@@ -233,7 +297,7 @@ habitat_plot_raw <- habitat_fe_only %>%
   theme(axis.text=element_text(color="black"))+
   xlab("Habitat type")+
   ylab("Microbial species richness")+
-  ggtitle("A")+
+  ggtitle("A        Primary habitat")+
   coord_flip()
 
 habitat_plot_raw
@@ -248,9 +312,14 @@ habitat_plot_posterior <- habitat_draws %>%
   ylab("Posterior distribution")+
   xlab("")+
   coord_flip()+
-  geom_hline(yintercept=0, color="red", linetype="dashed")
+  geom_hline(yintercept=0, color="red", linetype="dashed")+
+  ggtitle("B")
 
 habitat_plot_posterior
+
+habitat_plot_raw + habitat_plot_posterior + plot_layout(ncol=1)
+
+ggsave("Figures/single_regression_richness_primary_habitat_results.png", height=7.4, width=6.8, units="in")
 
 ###################################
 ###################################
@@ -309,7 +378,7 @@ trophic_level_plot_raw <- trophic_level_fe_only %>%
   theme(axis.text=element_text(color="black"))+
   xlab("Trophic niche")+
   ylab("Microbial species richness")+
-  ggtitle("A")+
+  ggtitle("A        Trophic level")+
   coord_flip()
 
 trophic_level_plot_raw
@@ -324,9 +393,14 @@ trophic_level_plot_posterior <- trophic_level_draws %>%
   ylab("Posterior distribution")+
   xlab("")+
   coord_flip()+
-  geom_hline(yintercept=0, color="red", linetype="dashed")
+  geom_hline(yintercept=0, color="red", linetype="dashed")+
+  ggtitle("B")
 
 trophic_level_plot_posterior
+
+trophic_level_plot_raw + trophic_level_plot_posterior + plot_layout(ncol=1)
+
+ggsave("Figures/single_regression_richness_trophic_level_results.png", height=7.4, width=6.8, units="in")
 
 ###################################
 ###################################
@@ -347,7 +421,7 @@ primary_lifestyle_plot_raw <- primary_lifestyle_fe_only %>%
   theme(axis.text=element_text(color="black"))+
   xlab("Primary lifestyle")+
   ylab("Microbial species richness")+
-  ggtitle("A")+
+  ggtitle("A        Primary lifestyle")+
   coord_flip()
 
 primary_lifestyle_plot_raw
@@ -362,7 +436,28 @@ primary_lifestyle_plot_posterior <- primary_lifestyle_draws %>%
   ylab("Posterior distribution")+
   xlab("")+
   coord_flip()+
-  geom_hline(yintercept=0, color="red", linetype="dashed")
+  geom_hline(yintercept=0, color="red", linetype="dashed")+
+  ggtitle("B")
 
 primary_lifestyle_plot_posterior
+
+primary_lifestyle_plot_raw + primary_lifestyle_plot_posterior + plot_layout(ncol=1)
+
+ggsave("Figures/single_regression_richness_primary_lifestyle_results.png", height=7.4, width=6.8, units="in")
+
+#######################################
+#######################################
+########  A FIGURE TO SUMMARIZE MULTIPLE REGRESSION RESULTS
+########################################
+mult_results <- readRDS("intermediate_results/multiple_regression_richness_summary.RDS")
+
+
+
+
+
+
+
+
+
+
 

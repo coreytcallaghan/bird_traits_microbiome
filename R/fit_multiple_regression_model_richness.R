@@ -38,7 +38,7 @@ length(unique(model_dat$DOI))
 
 mod_with <- brms::brm(Richness ~ log10(Mass) + log10(Range.Size) + log10(habitat_breadth) +
                         log10(pop_abund) + log10(mean_flock_size) + Habitat + Trophic.Level +
-                        Trophic.Niche + Primary.Lifestyle + (1|DOI/Sample_type) + (1|ebird_COMMON_NAME),
+                        Primary.Lifestyle + (1|DOI/Sample_type) + (1|ebird_COMMON_NAME),
                       family=poisson(),
                       data=model_dat,
                       warmup=1000,
@@ -62,8 +62,6 @@ draws <- mod_with %>%
                b_log10mean_flock_size, 
                b_HabitatGrassland, b_HabitatHumanModified, b_HabitatShrubland, b_HabitatWetland, b_HabitatWoodland, 
                b_Trophic.LevelHerbivore, b_Trophic.LevelOmnivore, 
-               b_Trophic.NicheFrugivore, b_Trophic.NicheGranivore, b_Trophic.NicheHerbivoreterrestrial,
-               b_Trophic.NicheInvertivore, b_Trophic.NicheNectarivore, b_Trophic.NicheOmnivore, 
                b_Primary.LifestyleGeneralist, b_Primary.LifestyleInsessorial, b_Primary.LifestyleTerrestrial)
 
 saveRDS(draws, paste0("intermediate_results/multiple_regression_richness_draws.RDS"))
