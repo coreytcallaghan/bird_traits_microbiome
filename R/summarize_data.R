@@ -8,7 +8,7 @@ library(forcats)
 library(scales)
 
 # prepare trait data
-analysis_dat <- readRDS("Clean data/analysis_data.RDS") %>%
+analysis_dat <- readRDS("Clean data/analysis_data_alpha.RDS") %>%
   dplyr::filter(complete.cases(ebird_COMMON_NAME))
 
 length(unique(analysis_dat$ebird_COMMON_NAME))
