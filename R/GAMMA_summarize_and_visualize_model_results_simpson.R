@@ -6,9 +6,11 @@ library(ggplot2)
 library(ggstance)
 library(tidybayes)
 library(tidyr)
+library(forcats)
+library(patchwork)
 
 # prepare trait data
-analysis_dat <- readRDS("Clean data/analysis_data_gamma.RDS") %>%
+analysis_dat <- readRDS("Clean data/analysis_data_gamma_v2.RDS") %>%
   dplyr::filter(complete.cases(ebird_COMMON_NAME))
 
 length(unique(analysis_dat$ebird_COMMON_NAME))

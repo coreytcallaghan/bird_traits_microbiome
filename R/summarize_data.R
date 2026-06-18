@@ -8,7 +8,7 @@ library(forcats)
 library(scales)
 
 # prepare trait data
-analysis_dat <- readRDS("Clean data/analysis_data_alpha.RDS") %>%
+analysis_dat <- readRDS("Clean data/analysis_data_alpha_v2.RDS") %>%
   dplyr::filter(complete.cases(ebird_COMMON_NAME))
 
 length(unique(analysis_dat$ebird_COMMON_NAME))
@@ -41,13 +41,14 @@ table(traits$Trophic.Niche)
 table(traits$Trophic.Level)
 
 # make figure of number of species per family
-analysis_dat %>%
+a <- analysis_dat %>%
   dplyr::select(ebird_COMMON_NAME, family) %>%
   distinct() %>%
   group_by(family) %>%
   summarize(N=n()) %>%
-  arrange(N) %>%
-  ggplot(., aes(x=fct_inorder(family), y=N))+
+  arrange(N)
+
+ggplot(a, aes(x=fct_inorder(family), y=N))+
   geom_col()+
   coord_flip()+
   theme_bw()+
